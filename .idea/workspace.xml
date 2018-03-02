@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 2/3 - CH Two/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 2/3 - CH Two/script.js" />
+    <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="Section 2 Completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Section 2/1 - Language Basics/script.js" afterPath="$PROJECT_DIR$/Section 2/1 - Language Basics/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,23 +89,6 @@
               <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Course1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 2" type="462c0819:PsiDirectoryNode" />
-              <item name="2 - CH One" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 2" type="462c0819:PsiDirectoryNode" />
-              <item name="3 - CH Two" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -168,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519986304487</updated>
       <workItem from="1519986306948" duration="8074000" />
-      <workItem from="1519995459534" duration="2622000" />
+      <workItem from="1519995459534" duration="2950000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 18 Added">
       <created>1519995180286</created>
@@ -177,17 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1519995180286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Section 2 Completed">
+      <created>1519998093361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519998093361</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10696000" />
+    <option name="totallyTimeSpent" value="11024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31767517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31767517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -214,7 +200,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lecture 18 Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture 18 Added" />
+    <MESSAGE value="Section 2 Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 2 Completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
