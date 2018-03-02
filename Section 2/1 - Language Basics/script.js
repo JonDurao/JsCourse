@@ -153,3 +153,32 @@ if (x === 5) {
 }
 */
 
+// Lecture 18 (Arrays)
+/*
+var Jon = ["Jon", "Durao", 1992, "Programmer", false];
+var names = ["Jon", "Luis", "Manu"];
+var years = new Array(1992, 1996, 2002);
+
+console.log(names[0]);
+
+names[10] = "Test";
+console.log(names);
+
+// Adds at the end
+Jon.push("Green");
+// Adds at the beggining
+Jon.unshift("Mr.");
+// Removes the last value
+Jon.pop();
+// Removes the 1st element
+Jon.shift()
+
+alert(Jon.indexOf(1992));
+console.log(Jon);
+
+if (Jon.indexOf("Teacher") === -1){
+    console.log("Jon is not a teacher")
+}
+*/
+
+// Lecture 19 (Objects)
