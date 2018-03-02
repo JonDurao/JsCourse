@@ -181,4 +181,95 @@ if (Jon.indexOf("Teacher") === -1){
 }
 */
 
-// Lecture 19 (Objects)
+// Lecture 19 (Objects and Props)
+/*
+var jon = {
+    name: "Jon",
+    lastName:"Durao",
+    age:25,
+    yearOfBirth:1992,
+    job:"Programmer",
+    married:false
+};
+
+console.log(jon);
+console.log(jon.name);
+console.log(jon["name"]);
+
+var xyz = "job";
+console.log(jon[xyz]);
+
+jon.lastName = "Durao Moreno";
+console.log(jon.lastName);
+
+var luis = new Object();
+luis.name = "Luis";
+luis.lastName = "Durao";
+luis.age=21;
+luis.yearOfBirth=1996;
+luis.job="Student";
+luis.married=false;
+
+console.log(luis);
+*/
+
+// Lecture 20 (Objects and Methods)
+/*
+var jon = {
+    name: "Jon",
+    lastName:"Durao",
+    yearOfBirth:1992,
+    job:"Programmer",
+    married:false,
+    family:["Martin","Mercedes","Luis","Manu"],
+    age: function (yearOfBirth) {
+        return 2018 - yearOfBirth;
+    }
+    age: function () {
+        return 2018 - this.yearOfBirth;
+    }
+};
+
+console.log(jon);
+console.log(jon.family);
+console.log(jon.family[2]);
+//console.log(jon.age(jon.yearOfBirth));
+console.log(jon.age());
+
+jon.age = jon.age();
+console.log(jon);
+*/
+
+// Lecture 21 (Loops)
+for (var counter=0; counter<10; counter++){
+    console.log(counter)
+}
+
+var names = ["Jon", "Luis", "Manu"];
+for (var counter=0; counter<names.length; counter++){
+    console.log(names[counter]);
+}
+
+for (var counter=names.length - 1; counter >= 0; counter--){
+    console.log(names[counter]);
+}
+
+var counterWhile = 0;
+while (counterWhile < names.length){
+    console.log(names[counterWhile]);
+    counterWhile++;
+}
+
+for (var counterWhileTwo=0; counterWhileTwo<names.length; counterWhileTwo++){
+    if (counterWhileTwo === 1){
+        continue;
+    }
+    console.log(names[counterWhileTwo]);
+}
+
+for (var counterWhileTwo=0; counterWhileTwo<names.length; counterWhileTwo++){
+    if (counterWhileTwo === 1){
+        break;
+    }
+    console.log(names[counterWhileTwo]);
+}
