@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js" line="257" mnemonic="1" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 4/1 - DiceGame/back.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 4/1 - DiceGame/dice-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 4/1 - DiceGame/dice-2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 4/1 - DiceGame/dice-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 4/1 - DiceGame/dice-4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 4/1 - DiceGame/dice-5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 4/1 - DiceGame/dice-6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 4/1 - DiceGame/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 4/1 - DiceGame/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 4/1 - DiceGame/style.css" />
+    <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="Section 4 Completed">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Section 5/1 - AdvancedJs/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Section 5/QuizGame/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Section 5/QuizGame/script.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,41 +24,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/index.html">
+        <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="173" column="11" lean-forward="false" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="11" />
+            <state relative-caret-position="253">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/script.js">
+        <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="554">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="challenges.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/challenges.js">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-713">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1127">
+              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding>
+                <element signature="e#917#1326#0" expanded="false" />
+                <element signature="e#1328#1706#0" expanded="false" />
+                <element signature="e#1745#2146#0" expanded="false" />
+                <element signature="e#2148#2351#0" expanded="false" />
+                <element signature="e#2391#3117#0" expanded="false" />
+                <element signature="e#3811#3933#0" expanded="false" />
+                <element signature="e#3990#4341#0" expanded="false" />
+                <element signature="e#5299#5602#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +101,10 @@
         <option value="$PROJECT_DIR$/Section 4/1 - DiceGame/index.html" />
         <option value="$PROJECT_DIR$/Section 4/1 - DiceGame/style.css" />
         <option value="$PROJECT_DIR$/Section 4/1 - DiceGame/script.js" />
+        <option value="$PROJECT_DIR$/Section 5/1 - AdvancedJs/index.html" />
+        <option value="$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js" />
+        <option value="$PROJECT_DIR$/Section 5/QuizGame/index.html" />
+        <option value="$PROJECT_DIR$/Section 5/QuizGame/script.js" />
       </list>
     </option>
   </component>
@@ -115,8 +115,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1046" />
-    <option name="width" value="1521" />
+    <option name="x" value="1273" />
+    <option name="width" value="1294" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -146,6 +146,34 @@
               <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Course1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course1" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course1" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 2" type="462c0819:PsiDirectoryNode" />
+              <item name="1 - Language Basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course1" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course1" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 5" type="462c0819:PsiDirectoryNode" />
+              <item name="1 - AdvancedJs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course1" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 5" type="462c0819:PsiDirectoryNode" />
+              <item name="QuizGame" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -157,7 +185,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Section 4/1 - DiceGame/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Section 5/QuizGame/index.html" />
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -165,6 +193,10 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 4\1 - DiceGame" />
       <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 2\1 - Language Basics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 5\QuizGame" />
+      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 5\1 - AdvancedJs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,7 +212,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Unnamed">
-    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/Course1/Section 4/1 - DiceGame/index.html" />
+    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63343/Course1/Section 5/QuizGame/index.html" />
     <configuration name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Section 2/1 - Language Basics" />
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Unnamed" />
@@ -207,7 +239,13 @@
       <updated>1519986304487</updated>
       <workItem from="1519986306948" duration="8074000" />
       <workItem from="1519995459534" duration="2975000" />
-      <workItem from="1520236122197" duration="14951000" />
+      <workItem from="1520236122197" duration="15056000" />
+      <workItem from="1520934235884" duration="9000" />
+      <workItem from="1520934280660" duration="7253000" />
+      <workItem from="1521113625580" duration="4566000" />
+      <workItem from="1521125147364" duration="3817000" />
+      <workItem from="1521131815450" duration="175000" />
+      <workItem from="1521207493521" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 18 Added">
       <created>1519995180286</created>
@@ -237,17 +275,24 @@
       <option name="project" value="LOCAL" />
       <updated>1520241267256</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Section 4 Completed">
+      <created>1520336632149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1520336632149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26000000" />
+    <option name="totallyTimeSpent" value="41926000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1046" y="0" width="1521" height="1047" extended-state="0" />
+    <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31627908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37261146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -276,18 +321,161 @@
     <MESSAGE value="Lecture 18 Added" />
     <MESSAGE value="Section 2 Completed" />
     <MESSAGE value="Section 3 Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 3 Completed" />
+    <MESSAGE value="Section 4 Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 4 Completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#917#1326#0" expanded="false" />
+            <element signature="e#1328#1706#0" expanded="false" />
+            <element signature="e#1745#2146#0" expanded="false" />
+            <element signature="e#2148#2351#0" expanded="false" />
+            <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3811#3933#0" expanded="false" />
+            <element signature="e#3990#4341#0" expanded="false" />
+            <element signature="e#5299#5602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#917#1326#0" expanded="false" />
+            <element signature="e#1328#1706#0" expanded="false" />
+            <element signature="e#1745#2146#0" expanded="false" />
+            <element signature="e#2148#2351#0" expanded="false" />
+            <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3811#3933#0" expanded="false" />
+            <element signature="e#3990#4341#0" expanded="false" />
+            <element signature="e#5299#5602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#917#1326#0" expanded="false" />
+            <element signature="e#1328#1706#0" expanded="false" />
+            <element signature="e#1745#2146#0" expanded="false" />
+            <element signature="e#2148#2351#0" expanded="false" />
+            <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3811#3933#0" expanded="false" />
+            <element signature="e#3990#4341#0" expanded="false" />
+            <element signature="e#5299#5602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3979">
+          <caret line="173" column="11" lean-forward="false" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/challenges.js" />
+    <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3979">
+          <caret line="173" column="11" lean-forward="false" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/challenges.js" />
+    <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Section 2/3 - CH Two/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -295,17 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#380#609#0" expanded="false" />
-            <element signature="e#652#1153#0" expanded="false" />
-            <element signature="e#1181#1482#0" expanded="false" />
-            <element signature="e#1531#2354#0" expanded="false" />
-            <element signature="e#2381#2897#0" expanded="false" />
-            <element signature="e#2940#3135#0" expanded="false" />
-            <element signature="e#3160#3647#0" expanded="false" />
-            <element signature="e#3683#4151#0" expanded="false" />
-            <element signature="e#4189#4680#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -313,24 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 2/1 - Language Basics/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="271" column="13" lean-forward="false" selection-start-line="271" selection-start-column="13" selection-end-line="271" selection-end-column="13" />
-          <folding>
-            <element signature="e#380#609#0" expanded="false" />
-            <element signature="e#652#1153#0" expanded="false" />
-            <element signature="e#1181#1482#0" expanded="false" />
-            <element signature="e#1531#2354#0" expanded="false" />
-            <element signature="e#2381#2897#0" expanded="false" />
-            <element signature="e#2940#3135#0" expanded="false" />
-            <element signature="e#3160#3647#0" expanded="false" />
-            <element signature="e#3683#4151#0" expanded="false" />
-            <element signature="e#4189#4680#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -352,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -360,18 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 3/1 - Hoisting/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="88" column="20" lean-forward="false" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-          <folding>
-            <element signature="e#25#772#0" expanded="false" />
-            <element signature="e#799#1067#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -379,38 +525,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/challenges.js" />
+    <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
+        <state relative-caret-position="555">
           <caret line="173" column="11" lean-forward="false" selection-start-line="173" selection-start-column="11" selection-end-line="173" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
+        <state relative-caret-position="569">
           <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 3/1 - Hoisting/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="88" column="20" lean-forward="false" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 2/1 - Language Basics/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1420">
+          <caret line="271" column="13" lean-forward="false" selection-start-line="271" selection-start-column="13" selection-end-line="271" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/challenges.js">
+    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-713">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1127">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#917#1326#0" expanded="false" />
+            <element signature="e#1328#1706#0" expanded="false" />
+            <element signature="e#1745#2146#0" expanded="false" />
+            <element signature="e#2148#2351#0" expanded="false" />
+            <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3811#3933#0" expanded="false" />
+            <element signature="e#3990#4341#0" expanded="false" />
+            <element signature="e#5299#5602#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/script.js">
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        <state relative-caret-position="554">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding />
         </state>
       </provider>
