@@ -1,53 +1,73 @@
-var Question = function (question, answers, correctAnswer) {
-    this.question = question;
-    this.answers = answers;
-    this.correctAnswer = correctAnswer;
-    this.toConsole = function () {
+(function () {
+    var correcto;
+    var preguntas = [];
+    var Question = function (question, answers, correctAnswer) {
+        this.question = question;
+        this.answers = answers;
+        this.correctAnswer = correctAnswer;
+    };
+
+    Question.prototype.displayQuestion = function () {
         console.log(this.question);
-        for (var i = 0; i < answers.length; i++){
-            console.log(this.answers[i]);
-        }
-        console.log("¿Cual crees que es la respuesta?");
 
-        return function (el) {
-            if (el === "exit"){
-                console.log("EXIT")
+        for (var i = 0; i < this.answers.length ; i++){
+            console.log(i + ": " + this.answers[i]);
+        }
+
+        return prompt("Cual es la respuesta correcta?");
+    };
+
+    Question.prototype.checkAnswer = function (ans, callback) {
+        var sc;
+        if (ans !== "exit"){
+            if (parseInt(ans) === this.correctAnswer){
+                console.log("Correcto");
+                correcto = true;
+                sc = callback(true);
             } else {
-                if (el == correctAnswer){
-                    console.log("OK!!!");
-                    getNewQuestion(true);
-                } else {
-                    console.log("ERROR!!!");
-                    getNewQuestion(false);
-                }
+                console.log("Incorrecto");
+                correcto = false;
+                sc = callback(false);
             }
+        } else {
+            console.log("Exit");
         }
-    }
-};
 
-var preguntas = [];
-var totalResult;
+        this.displayScore(sc);
+    };
 
-function getNewQuestion (result) {
-    if (result == ""){
-        totalResult = 0;
-    } else if (true){
-        totalResult++;
-    }
+    Question.prototype.displayScore = function (score) {
+        console.log('You current score is ' + score + "\n---------------------------");
+        nextQuestion();
+    };
 
-    console.log("Tienes " + totalResult + " Puntos.");
 
-    preguntas[Math.floor(Math.random() * 2)].toConsole()(prompt());
-}
-
-function init () {
     var quienEres = new Question('¿Quien eres?', ['Jon', 'Luis', 'Manu'], 0);
     var dondeTrabajas = new Question('¿Donde trabajas?', ['Nexus', 'Docomo', 'Bluu'], 2);
 
     preguntas.push(quienEres);
     preguntas.push(dondeTrabajas);
 
-    getNewQuestion("");
-}
+    function nextQuestion() {
+        var n = Math.floor(Math.random() * preguntas.length);
 
-init();
+        preguntas[n].checkAnswer(preguntas[n].displayQuestion(),
+            keepScore);
+    }
+
+    function scoreCalculate() {
+        var sc = 0;
+
+        return function (correct) {
+            if (correct){
+                sc++;
+            }
+
+            return sc;
+        }
+    }
+
+    var keepScore = scoreCalculate();
+
+    nextQuestion();
+}());

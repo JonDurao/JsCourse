@@ -4,12 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js" line="257" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="Section 4 Completed">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 5/1 - AdvancedJs/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 5/QuizGame/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Section 5/QuizGame/script.js" />
+    <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Section 5/QuizGame/script.js" afterPath="$PROJECT_DIR$/Section 5/QuizGame/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,8 +33,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="600">
+              <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -54,8 +51,10 @@
                 <element signature="e#1745#2146#0" expanded="false" />
                 <element signature="e#2148#2351#0" expanded="false" />
                 <element signature="e#2391#3117#0" expanded="false" />
+                <element signature="e#3165#3809#0" expanded="false" />
                 <element signature="e#3811#3933#0" expanded="false" />
-                <element signature="e#3990#4341#0" expanded="false" />
+                <element signature="e#4343#4437#0" expanded="false" />
+                <element signature="e#4463#5297#0" expanded="false" />
                 <element signature="e#5299#5602#0" expanded="false" />
               </folding>
             </state>
@@ -245,7 +244,10 @@
       <workItem from="1521113625580" duration="4566000" />
       <workItem from="1521125147364" duration="3817000" />
       <workItem from="1521131815450" duration="175000" />
-      <workItem from="1521207493521" duration="1000" />
+      <workItem from="1521207493521" duration="58000" />
+      <workItem from="1521457863986" duration="1181000" />
+      <workItem from="1521460176477" duration="1578000" />
+      <workItem from="1521800607134" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 18 Added">
       <created>1519995180286</created>
@@ -282,11 +284,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520336632149</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Section 5">
+      <created>1521207505539</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521207505539</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41926000" />
+    <option name="totallyTimeSpent" value="45451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
@@ -322,7 +331,8 @@
     <MESSAGE value="Section 2 Completed" />
     <MESSAGE value="Section 3 Completed" />
     <MESSAGE value="Section 4 Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 4 Completed" />
+    <MESSAGE value="Section 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -347,8 +357,80 @@
             <element signature="e#1745#2146#0" expanded="false" />
             <element signature="e#2148#2351#0" expanded="false" />
             <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3165#3809#0" expanded="false" />
             <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#3990#4341#0" expanded="false" />
+            <element signature="e#4343#4437#0" expanded="false" />
+            <element signature="e#4463#5297#0" expanded="false" />
+            <element signature="e#5299#5602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#917#1326#0" expanded="false" />
+            <element signature="e#1328#1706#0" expanded="false" />
+            <element signature="e#1745#2146#0" expanded="false" />
+            <element signature="e#2148#2351#0" expanded="false" />
+            <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3165#3809#0" expanded="false" />
+            <element signature="e#3811#3933#0" expanded="false" />
+            <element signature="e#4343#4437#0" expanded="false" />
+            <element signature="e#4463#5297#0" expanded="false" />
+            <element signature="e#5299#5602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#917#1326#0" expanded="false" />
+            <element signature="e#1328#1706#0" expanded="false" />
+            <element signature="e#1745#2146#0" expanded="false" />
+            <element signature="e#2148#2351#0" expanded="false" />
+            <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3165#3809#0" expanded="false" />
+            <element signature="e#3811#3933#0" expanded="false" />
+            <element signature="e#4343#4437#0" expanded="false" />
+            <element signature="e#4463#5297#0" expanded="false" />
             <element signature="e#5299#5602#0" expanded="false" />
           </folding>
         </state>
@@ -380,8 +462,45 @@
             <element signature="e#1745#2146#0" expanded="false" />
             <element signature="e#2148#2351#0" expanded="false" />
             <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3165#3809#0" expanded="false" />
             <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#3990#4341#0" expanded="false" />
+            <element signature="e#4343#4437#0" expanded="false" />
+            <element signature="e#4463#5297#0" expanded="false" />
+            <element signature="e#5299#5602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#917#1326#0" expanded="false" />
+            <element signature="e#1328#1706#0" expanded="false" />
+            <element signature="e#1745#2146#0" expanded="false" />
+            <element signature="e#2148#2351#0" expanded="false" />
+            <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3165#3809#0" expanded="false" />
+            <element signature="e#3811#3933#0" expanded="false" />
+            <element signature="e#4343#4437#0" expanded="false" />
+            <element signature="e#4463#5297#0" expanded="false" />
             <element signature="e#5299#5602#0" expanded="false" />
           </folding>
         </state>
@@ -421,8 +540,10 @@
             <element signature="e#1745#2146#0" expanded="false" />
             <element signature="e#2148#2351#0" expanded="false" />
             <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3165#3809#0" expanded="false" />
             <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#3990#4341#0" expanded="false" />
+            <element signature="e#4343#4437#0" expanded="false" />
+            <element signature="e#4463#5297#0" expanded="false" />
             <element signature="e#5299#5602#0" expanded="false" />
           </folding>
         </state>
@@ -589,8 +710,10 @@
             <element signature="e#1745#2146#0" expanded="false" />
             <element signature="e#2148#2351#0" expanded="false" />
             <element signature="e#2391#3117#0" expanded="false" />
+            <element signature="e#3165#3809#0" expanded="false" />
             <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#3990#4341#0" expanded="false" />
+            <element signature="e#4343#4437#0" expanded="false" />
+            <element signature="e#4463#5297#0" expanded="false" />
             <element signature="e#5299#5602#0" expanded="false" />
           </folding>
         </state>
@@ -598,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="600">
+          <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="34" />
           <folding />
         </state>
       </provider>
