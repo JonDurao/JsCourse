@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Section 6/1 - Budgety/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Section 6/1 - Budgety/back.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Section 6/1 - Budgety/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Section 6/1 - Budgety/style.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Section 5/QuizGame/script.js" afterPath="$PROJECT_DIR$/Section 5/QuizGame/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,43 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state relative-caret-position="368">
+              <caret line="63" column="58" lean-forward="false" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
               <folding>
-                <element signature="e#917#1326#0" expanded="false" />
-                <element signature="e#1328#1706#0" expanded="false" />
-                <element signature="e#1745#2146#0" expanded="false" />
-                <element signature="e#2148#2351#0" expanded="false" />
-                <element signature="e#2391#3117#0" expanded="false" />
-                <element signature="e#3165#3809#0" expanded="false" />
-                <element signature="e#3811#3933#0" expanded="false" />
-                <element signature="e#4343#4437#0" expanded="false" />
-                <element signature="e#4463#5297#0" expanded="false" />
-                <element signature="e#5299#5602#0" expanded="false" />
+                <element signature="e#36#470#0" expanded="false" />
+                <element signature="e#503#1076#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,6 +89,7 @@
         <option value="$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js" />
         <option value="$PROJECT_DIR$/Section 5/QuizGame/index.html" />
         <option value="$PROJECT_DIR$/Section 5/QuizGame/script.js" />
+        <option value="$PROJECT_DIR$/Section 6/1 - Budgety/app.js" />
       </list>
     </option>
   </component>
@@ -136,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -144,17 +129,6 @@
             <path>
               <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Course1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 2" type="462c0819:PsiDirectoryNode" />
-              <item name="1 - Language Basics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
@@ -170,13 +144,19 @@
             <path>
               <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 5" type="462c0819:PsiDirectoryNode" />
-              <item name="QuizGame" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course1" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 6" type="462c0819:PsiDirectoryNode" />
+              <item name="1 - Budgety" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,18 +164,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Section 5/QuizGame/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Section 6/1 - Budgety/index.html" />
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 4\1 - DiceGame" />
-      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 2\1 - Language Basics" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 5\QuizGame" />
       <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 5\1 - AdvancedJs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 6\1 - Budgety" />
+      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 6" />
+      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 4\1 - DiceGame" />
+      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 2\1 - Language Basics" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,7 +193,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Unnamed">
-    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63343/Course1/Section 5/QuizGame/index.html" />
+    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63343/Course1/Section 6/1 - Budgety/index.html" />
     <configuration name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Section 2/1 - Language Basics" />
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Unnamed" />
@@ -247,7 +229,10 @@
       <workItem from="1521207493521" duration="58000" />
       <workItem from="1521457863986" duration="1181000" />
       <workItem from="1521460176477" duration="1578000" />
-      <workItem from="1521800607134" duration="709000" />
+      <workItem from="1521800607134" duration="6550000" />
+      <workItem from="1523267216632" duration="7000" />
+      <workItem from="1525336598497" duration="4937000" />
+      <workItem from="1525787676597" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 18 Added">
       <created>1519995180286</created>
@@ -291,15 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1521207505539</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Section 5 Completed">
+      <created>1521801329472</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1521801329472</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45451000" />
+    <option name="totallyTimeSpent" value="56238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37261146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -332,18 +323,64 @@
     <MESSAGE value="Section 3 Completed" />
     <MESSAGE value="Section 4 Completed" />
     <MESSAGE value="Section 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 5" />
+    <MESSAGE value="Section 5 Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 5 Completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="e#36#470#0" expanded="false" />
+            <element signature="e#503#1076#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#470#0" expanded="false" />
+            <element signature="e#503#1076#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -351,18 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1127">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="e#917#1326#0" expanded="false" />
-            <element signature="e#1328#1706#0" expanded="false" />
-            <element signature="e#1745#2146#0" expanded="false" />
-            <element signature="e#2148#2351#0" expanded="false" />
-            <element signature="e#2391#3117#0" expanded="false" />
-            <element signature="e#3165#3809#0" expanded="false" />
-            <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#4343#4437#0" expanded="false" />
-            <element signature="e#4463#5297#0" expanded="false" />
-            <element signature="e#5299#5602#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -370,7 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -378,7 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,18 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1127">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="e#917#1326#0" expanded="false" />
-            <element signature="e#1328#1706#0" expanded="false" />
-            <element signature="e#1745#2146#0" expanded="false" />
-            <element signature="e#2148#2351#0" expanded="false" />
-            <element signature="e#2391#3117#0" expanded="false" />
-            <element signature="e#3165#3809#0" expanded="false" />
-            <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#4343#4437#0" expanded="false" />
-            <element signature="e#4463#5297#0" expanded="false" />
-            <element signature="e#5299#5602#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,7 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -413,7 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -421,18 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1127">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="e#917#1326#0" expanded="false" />
-            <element signature="e#1328#1706#0" expanded="false" />
-            <element signature="e#1745#2146#0" expanded="false" />
-            <element signature="e#2148#2351#0" expanded="false" />
-            <element signature="e#2391#3117#0" expanded="false" />
-            <element signature="e#3165#3809#0" expanded="false" />
-            <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#4343#4437#0" expanded="false" />
-            <element signature="e#4463#5297#0" expanded="false" />
-            <element signature="e#5299#5602#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,7 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,18 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1127">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="e#917#1326#0" expanded="false" />
-            <element signature="e#1328#1706#0" expanded="false" />
-            <element signature="e#1745#2146#0" expanded="false" />
-            <element signature="e#2148#2351#0" expanded="false" />
-            <element signature="e#2391#3117#0" expanded="false" />
-            <element signature="e#3165#3809#0" expanded="false" />
-            <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#4343#4437#0" expanded="false" />
-            <element signature="e#4463#5297#0" expanded="false" />
-            <element signature="e#5299#5602#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -475,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -483,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,18 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1127">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="e#917#1326#0" expanded="false" />
-            <element signature="e#1328#1706#0" expanded="false" />
-            <element signature="e#1745#2146#0" expanded="false" />
-            <element signature="e#2148#2351#0" expanded="false" />
-            <element signature="e#2391#3117#0" expanded="false" />
-            <element signature="e#3165#3809#0" expanded="false" />
-            <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#4343#4437#0" expanded="false" />
-            <element signature="e#4463#5297#0" expanded="false" />
-            <element signature="e#5299#5602#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -510,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,18 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#917#1326#0" expanded="false" />
-            <element signature="e#1328#1706#0" expanded="false" />
-            <element signature="e#1745#2146#0" expanded="false" />
-            <element signature="e#2148#2351#0" expanded="false" />
-            <element signature="e#2391#3117#0" expanded="false" />
-            <element signature="e#3165#3809#0" expanded="false" />
-            <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#4343#4437#0" expanded="false" />
-            <element signature="e#4463#5297#0" expanded="false" />
-            <element signature="e#5299#5602#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,34 +650,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="e#917#1326#0" expanded="false" />
-            <element signature="e#1328#1706#0" expanded="false" />
-            <element signature="e#1745#2146#0" expanded="false" />
-            <element signature="e#2148#2351#0" expanded="false" />
-            <element signature="e#2391#3117#0" expanded="false" />
-            <element signature="e#3165#3809#0" expanded="false" />
-            <element signature="e#3811#3933#0" expanded="false" />
-            <element signature="e#4343#4437#0" expanded="false" />
-            <element signature="e#4463#5297#0" expanded="false" />
-            <element signature="e#5299#5602#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="1587">
           <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="63" column="58" lean-forward="false" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+          <folding>
+            <element signature="e#36#470#0" expanded="false" />
+            <element signature="e#503#1076#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
