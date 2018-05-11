@@ -61,7 +61,26 @@ var UIController = (function () {
 })();
 
 var controller = (function (budgetCtrl, uiCtrl) {
-    document.querySelector('.add__btn').addEventListener('click', function () {
-       alert('Element Clicked')
+    document.querySelector('#add_button_jon')
+        .addEventListener ('click', function () {
+            // 1. Get field input data
+
+            // 2. Add item to the budget controller
+
+            // 3. Add item to UI
+
+            // 4. Calculate budget
+
+            // 5. Display Budget
+
+            alert('Element Clicked')
+        });
+
+    // Listens for events in the whole page
+    document.addEventListener('keypress', function (event) {
+        if (event.keyCode === 13 || event.which === 13){
+
+        }
+        console.log(event);
     });
 })(budgetController, UIController);
