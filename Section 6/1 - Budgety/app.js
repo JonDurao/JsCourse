@@ -51,36 +51,48 @@ var controller = (function (budgetCtrl, uiCtrl) {
     }
 })(budgetController, UIController);*/
 
-// Lecture 69 - Event Listener for key press
+// Lecture 69 - Event Listener for key press   ////  Levture 70 - Reading Input data
 var budgetController = (function () {
     //Code
 })();
 
 var UIController = (function () {
-    //Code
+    return{
+        getInput: function () {
+            return{
+                type: document.querySelector('.add__type').value, // Will be inc or exp
+                description: document.querySelector('.add__description').value,
+                number: document.querySelector('.add__value').value}
+        }
+    };
 })();
 
 var controller = (function (budgetCtrl, uiCtrl) {
-    document.querySelector('#add_button_jon')
-        .addEventListener ('click', function () {
-            // 1. Get field input data
 
-            // 2. Add item to the budget controller
+    // private as it is not returned
+    var ctrlAddItem = function(){
+        // 1. Get field input data
+        var input = uiCtrl.getInput();
+        console.log(input);
 
-            // 3. Add item to UI
+        // 2. Add item to the budget controller
 
-            // 4. Calculate budget
+        // 3. Add item to UI
 
-            // 5. Display Budget
+        // 4. Calculate budget
 
-            alert('Element Clicked')
-        });
+        // 5. Display Budget
+
+        console.log("Hola");
+    };
+
+    document.querySelector('#add_button_jon').addEventListener('click', ctrlAddItem);
 
     // Listens for events in the whole page
     document.addEventListener('keypress', function (event) {
-        if (event.keyCode === 13 || event.which === 13){
-
+        if (event.key === "Enter"){
+            // console.log(event);
+            ctrlAddItem();
         }
-        console.log(event);
     });
 })(budgetController, UIController);
