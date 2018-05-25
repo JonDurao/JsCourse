@@ -51,23 +51,82 @@ var controller = (function (budgetCtrl, uiCtrl) {
     }
 })(budgetController, UIController);*/
 
-// Lecture 69 - Event Listener for key press   ////  Levture 70 - Reading Input data
+// Lecture 69 - Event Listener for key press   ////  Lecture 70 - Reading Input data  //// Lecture 71 - Init Function
+    //// Lecture 72 //// Lecture 73
 var budgetController = (function () {
-    //Code
+    var Expense = function (id, description, value) {
+        this.id = id;
+        this.description =description;
+        this.value = value;
+    };
+
+    var Income = function (id, description, value) {
+        this.id = id;
+        this.description =description;
+        this.value = value;
+    };
+
+    /* Bad solution 1
+    var allExpenses = [];
+    var allIncomes = [];
+    var totalExpenses = 0;*/
+
+    var data = {
+        /* Bad sol 2
+        allExpenses: [],
+        allIncomes: []*/
+        allItems: {
+            exp: [],
+            inc: []
+        },
+        totals: {
+            totalExp: 0,
+            totalInc:0
+        }
+    };
+
+    return{
+        addItem: function (type, des, val) {
+            var newItem;
+
+            newItem = Expense(ID, des, val);
+        }
+    }
 })();
 
 var UIController = (function () {
+    var DomString = {
+        INPUT_TYPE : '.add__type',
+        INPUT_DESCRIPTION : '.add__description',
+        INPUT_VALUE : '.add__value'
+    };
+
     return{
         getInput: function () {
             return{
-                type: document.querySelector('.add__type').value, // Will be inc or exp
-                description: document.querySelector('.add__description').value,
-                number: document.querySelector('.add__value').value}
+                type: document.querySelector(DomString.INPUT_TYPE).value, // Will be inc or exp
+                description: document.querySelector(DomString.INPUT_DESCRIPTION).value,
+                number: document.querySelector(DomString.INPUT_VALUE).value}
         }
     };
 })();
 
 var controller = (function (budgetCtrl, uiCtrl) {
+    var initEventListeners = function() {
+        var DomStrings = {
+            BUTTON_ADD : '#add_button_jon'
+        };
+
+        document.querySelector(DomStrings.BUTTON_ADD).addEventListener('click', ctrlAddItem);
+
+        // Listens for events in the whole page
+        document.addEventListener('keypress', function (event) {
+            if (event.key === "Enter"){
+                // console.log(event);
+                ctrlAddItem();
+            }
+        });
+    };
 
     // private as it is not returned
     var ctrlAddItem = function(){
@@ -82,17 +141,14 @@ var controller = (function (budgetCtrl, uiCtrl) {
         // 4. Calculate budget
 
         // 5. Display Budget
-
-        console.log("Hola");
     };
 
-    document.querySelector('#add_button_jon').addEventListener('click', ctrlAddItem);
-
-    // Listens for events in the whole page
-    document.addEventListener('keypress', function (event) {
-        if (event.key === "Enter"){
-            // console.log(event);
-            ctrlAddItem();
+    return{
+        init: function () {
+            console.log("Init");
+            initEventListeners();
         }
-    });
+    };
 })(budgetController, UIController);
+
+controller.init();
