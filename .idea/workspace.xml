@@ -23,8 +23,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+            <state relative-caret-position="1113">
+              <caret line="219" column="30" selection-start-line="219" selection-start-column="12" selection-end-line="219" selection-end-column="30" />
               <folding>
                 <element signature="e#36#470#0" />
                 <element signature="e#503#1076#0" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="1058">
+              <caret line="88" column="46" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -101,7 +101,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
+    <option name="x" value="-7" />
     <option name="width" value="1294" />
     <option name="height" value="1047" />
   </component>
@@ -185,7 +185,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Unnamed">
-    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63344/Course1/Section 6/1 - Budgety/index.html" />
+    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" activateToolWindowBeforeRun="false" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63343/Course1/Section 6/1 - Budgety/index.html" />
     <configuration name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Section 2/1 - Language Basics" />
     <list>
       <item itemvalue="JavaScript Debug.Unnamed" />
@@ -228,7 +228,8 @@
       <workItem from="1526299159440" duration="368000" />
       <workItem from="1526545973456" duration="588000" />
       <workItem from="1526901669481" duration="598000" />
-      <workItem from="1527244861051" duration="3596000" />
+      <workItem from="1527244861051" duration="4186000" />
+      <workItem from="1527493256964" duration="7929000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 18 Added">
       <created>1519995180286</created>
@@ -293,14 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526041814733</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update">
+      <created>1527250471538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1527250471538</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68410000" />
+    <option name="totallyTimeSpent" value="76929000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.37261146" />
@@ -312,7 +320,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -363,6 +371,18 @@
     <MESSAGE value="Section 5 Completed" />
     <MESSAGE value="Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url />
+          <line>146</line>
+          <properties lambdaOrdinal="-1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
@@ -679,15 +699,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="1058">
+          <caret line="88" column="46" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        <state relative-caret-position="1113">
+          <caret line="219" column="30" selection-start-line="219" selection-start-column="12" selection-end-line="219" selection-end-column="30" />
           <folding>
             <element signature="e#36#470#0" />
             <element signature="e#503#1076#0" />

@@ -52,7 +52,7 @@ var controller = (function (budgetCtrl, uiCtrl) {
 })(budgetController, UIController);*/
 
 // Lecture 69 - Event Listener for key press   ////  Lecture 70 - Reading Input data  //// Lecture 71 - Init Function
-    //// Lecture 72 //// Lecture 73
+    //// Lecture 72 //// Lecture 73 //// Lecture 74
 var budgetController = (function () {
     var Expense = function (id, description, value) {
         this.id = id;
@@ -87,9 +87,26 @@ var budgetController = (function () {
 
     return{
         addItem: function (type, des, val) {
-            var newItem;
+            var newItem, ID;
+            //ID = 0;
 
-            newItem = Expense(ID, des, val);
+            if (data.allItems[type].length > 0){
+                ID = data.allItems[type][data.allItems[type].length - 1].id + 1;
+            } else {
+                ID = 0;
+            }
+
+            if (type === 'exp'){
+                newItem = new Expense(ID, des, val);
+            } else if (type === 'inc') {
+                newItem = new Income(ID, des, val);
+            }
+
+            data.allItems[type].push(newItem);
+            return newItem;
+        },
+        testing: function () {
+            console.log(data);
         }
     }
 })();
@@ -98,7 +115,9 @@ var UIController = (function () {
     var DomString = {
         INPUT_TYPE : '.add__type',
         INPUT_DESCRIPTION : '.add__description',
-        INPUT_VALUE : '.add__value'
+        INPUT_VALUE : '.add__value',
+        LIST_INCOME : '.income__list',
+        LIST_EXPENSE : '.expenses__list'
     };
 
     return{
@@ -106,7 +125,52 @@ var UIController = (function () {
             return{
                 type: document.querySelector(DomString.INPUT_TYPE).value, // Will be inc or exp
                 description: document.querySelector(DomString.INPUT_DESCRIPTION).value,
-                number: document.querySelector(DomString.INPUT_VALUE).value}
+                value: document.querySelector(DomString.INPUT_VALUE).value}
+        },
+        addListItem: function(obj, type){
+            var htmlCome, newHtmlCome, listElement;
+
+            // Create HTML with placeholder
+            if (type ==='inc'){
+                listElement = DomString.LIST_INCOME;
+                htmlCome = '<div class="item clearfix" id="income-%id%"> <div class="item__description">%description%</div> <div class="right clearfix"> ' +
+                    '<div class="item__value">+ %value%</div> <div class="item__delete"> <button class="item__delete--btn">' +
+                    '<i class="ion-ios-close-outline"></i></button> </div> </div> </div>';
+            } else if (type ==='exp') {
+                listElement = DomString.LIST_EXPENSE;
+                htmlCome = '<div class="item clearfix" id="expense-%id%"><div class="item__description">%description%</div>' +
+                    '<div class="right clearfix"><div class="item__value">- %value%</div><div class="item__percentage">21%</div>' +
+                    '<div class="item__delete"><button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+            }
+
+            // Replace placeholders
+            newHtmlCome = htmlCome.replace('%id%', obj.id);
+            newHtmlCome = newHtmlCome.replace('%description%', obj.description);
+            newHtmlCome = newHtmlCome.replace('%value%', obj.value);
+
+            // Insert HTML into the DOM
+            document.querySelector(listElement).insertAdjacentHTML('beforeend', newHtmlCome);
+        },
+        clearFields : function(){
+            var fields, fieldsArray;
+
+            fields = document.querySelectorAll(DomString.INPUT_VALUE + ', ' + DomString.INPUT_DESCRIPTION);
+
+            //fields.slice()
+            fieldsArray = Array.prototype.slice.call(fields);
+
+            // valores disponibles value, index, array
+            fieldsArray.forEach(function (value) {
+                value.value = "";
+            });
+
+            fieldsArray[0].focus();
+
+            console.log(fields);
+            console.log(fieldsArray);
+        },
+        getDOMStrings: function () {
+            return DOMStrings;
         }
     };
 })();
@@ -130,13 +194,20 @@ var controller = (function (budgetCtrl, uiCtrl) {
 
     // private as it is not returned
     var ctrlAddItem = function(){
+        var input, newItem;
+
         // 1. Get field input data
-        var input = uiCtrl.getInput();
+        input = uiCtrl.getInput();
         console.log(input);
 
         // 2. Add item to the budget controller
+        newItem = budgetCtrl.addItem(input.type, input.description, input.value);
+        console.log(newItem);
+        budgetCtrl.testing();
 
         // 3. Add item to UI
+        uiCtrl.addListItem(newItem, input.type);
+        uiCtrl.clearFields();
 
         // 4. Calculate budget
 
