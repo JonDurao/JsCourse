@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 7/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 7/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6/1 - Budgety/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Section 6/1 - Budgety/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section 6/1 - Budgety/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Section 6/1 - Budgety/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,100 +23,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Section 7/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="270" column="81" selection-start-line="270" selection-start-column="81" selection-end-line="270" selection-end-column="81" />
+            <state relative-caret-position="276">
+              <caret line="223" column="9" lean-forward="true" selection-start-line="223" selection-start-column="9" selection-end-line="223" selection-end-column="9" />
               <folding>
-                <element signature="e#36#470#0" />
-                <element signature="e#503#1076#0" />
-                <element signature="e#1078#1195#0" />
-                <element signature="e#1348#4862#0" />
-                <element signature="e#1402#1528#0" />
-                <element signature="e#1593#1769#0" />
-                <element signature="e#1623#1712#0" />
-                <element signature="e#1718#1763#0" />
-                <element signature="e#1822#1861#0" />
-                <element signature="e#1915#2011#0" />
-                <element signature="e#2018#2115#0" />
-                <element signature="e#2158#2318#0" />
-                <element signature="e#2233#2276#0" />
-                <element signature="e#2336#2594#0" />
-                <element signature="e#2346#2408#0" />
-                <element signature="e#2427#2479#0" />
-                <element signature="e#2497#2545#0" />
-                <element signature="e#2607#4860#0" />
-                <element signature="e#2652#3174#0" />
-                <element signature="e#2753#2849#0" />
-                <element signature="e#2855#2894#0" />
-                <element signature="e#2927#2995#0" />
-                <element signature="e#3021#3088#0" />
-                <element signature="e#3214#3537#0" />
-                <element signature="e#3304#3351#0" />
-                <element signature="e#3422#3527#0" />
-                <element signature="e#3574#4141#0" />
-                <element signature="e#3970#4072#0" />
-                <element signature="e#4078#4131#0" />
-                <element signature="e#4182#4314#0" />
-                <element signature="e#4237#4302#0" />
-                <element signature="e#4350#4540#0" />
-                <element signature="e#4439#4499#0" />
-                <element signature="e#4571#4781#0" />
-                <element signature="e#4592#4771#0" />
-                <element signature="e#4812#4854#0" />
-                <element signature="e#5704#6083#0" />
-                <element signature="e#5882#5979#0" />
-                <element signature="e#5971#6101#0" />
-                <element signature="e#6026#6087#0" />
-                <element signature="e#6128#6480#0" />
-                <element signature="e#6148#6470#0" />
-                <element signature="e#6530#8013#0" />
-                <element signature="e#6659#7097#0" />
-                <element signature="e#7122#7601#0" />
-                <element signature="e#8051#8180#0" />
-                <element signature="e#8215#8940#0" />
-                <element signature="e#8599#8712#0" />
-                <element signature="e#8718#8930#0" />
-                <element signature="e#8970#9128#0" />
-                <element signature="e#8842#8977#0" />
-                <element signature="e#9651#9719#0" />
-                <element signature="e#9779#10294#0" />
-                <element signature="e#10124#10173#0" />
-                <element signature="e#10331#10373#0" />
-                <element signature="e#11027#11162#0" />
-                <element signature="e#11067#11152#0" />
-                <element signature="e#11208#11424#0" />
-                <element signature="e#11467#11708#0" />
-                <element signature="e#11780#12534#0" />
-                <element signature="e#12014#12528#0" />
-                <element signature="e#12579#13095#0" />
-                <element signature="e#12719#13089#0" />
-                <element signature="e#13108#13418#0" />
-                <element signature="e#13136#13412#0" />
-                <element signature="e#13201#13335#0" />
+                <element signature="e#1673#2087#0" />
+                <element signature="e#2060#2872#0" />
+                <element signature="e#2873#3368#0" />
+                <element signature="e#3371#5154#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="166" column="48" lean-forward="true" selection-start-line="166" selection-start-column="48" selection-end-line="166" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
+        <entry file="file://$PROJECT_DIR$/Section 7/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="48" column="100" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="100" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="552">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -123,9 +52,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -175,8 +104,10 @@
         <option value="$PROJECT_DIR$/Section 5/QuizGame/index.html" />
         <option value="$PROJECT_DIR$/Section 5/QuizGame/script.js" />
         <option value="$PROJECT_DIR$/Section 6/1 - Budgety/index.html" />
-        <option value="$PROJECT_DIR$/Section 6/1 - Budgety/style.css" />
         <option value="$PROJECT_DIR$/Section 6/1 - Budgety/app.js" />
+        <option value="$PROJECT_DIR$/Section 6/1 - Budgety/style.css" />
+        <option value="$PROJECT_DIR$/Section 7/index.html" />
+        <option value="$PROJECT_DIR$/Section 7/script.js" />
       </list>
     </option>
   </component>
@@ -212,24 +143,7 @@
             <path>
               <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 5" type="462c0819:PsiDirectoryNode" />
-              <item name="1 - AdvancedJs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 6" type="462c0819:PsiDirectoryNode" />
-              <item name="1 - Budgety" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,7 +157,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Section 6/1 - Budgety/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Section 7/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -274,7 +188,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Unnamed">
-    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" activateToolWindowBeforeRun="false" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/Course1/Section 6/1 - Budgety/index.html" />
+    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" activateToolWindowBeforeRun="false" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/Course1/Section 7/index.html" />
     <configuration name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Section 2/1 - Language Basics" />
     <list>
       <item itemvalue="JavaScript Debug.Unnamed" />
@@ -320,7 +234,7 @@
       <workItem from="1527244861051" duration="4186000" />
       <workItem from="1527493256964" duration="7929000" />
       <workItem from="1527512932515" duration="18164000" />
-      <workItem from="1527665521863" duration="976000" />
+      <workItem from="1527665521863" duration="9588000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 18 Added">
       <created>1519995180286</created>
@@ -406,11 +320,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527608698118</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Project 6">
+      <created>1527666567560</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1527666567560</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96069000" />
+    <option name="totallyTimeSpent" value="104681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -475,7 +396,8 @@
     <MESSAGE value="Section 5" />
     <MESSAGE value="Section 5 Completed" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Project 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,161 +442,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="e#36#470#0" />
-            <element signature="e#503#1076#0" />
-            <element signature="e#1078#1195#0" />
-            <element signature="e#1348#4862#0" />
-            <element signature="e#1402#1528#0" />
-            <element signature="e#1593#1769#0" />
-            <element signature="e#1623#1712#0" />
-            <element signature="e#1718#1763#0" />
-            <element signature="e#1822#1861#0" />
-            <element signature="e#1915#2011#0" />
-            <element signature="e#2018#2115#0" />
-            <element signature="e#2158#2318#0" />
-            <element signature="e#2233#2276#0" />
-            <element signature="e#2336#2594#0" />
-            <element signature="e#2346#2408#0" />
-            <element signature="e#2427#2479#0" />
-            <element signature="e#2497#2545#0" />
-            <element signature="e#2607#4860#0" />
-            <element signature="e#2652#3174#0" />
-            <element signature="e#2753#2849#0" />
-            <element signature="e#2855#2894#0" />
-            <element signature="e#2927#2995#0" />
-            <element signature="e#3021#3088#0" />
-            <element signature="e#3214#3537#0" />
-            <element signature="e#3304#3351#0" />
-            <element signature="e#3422#3527#0" />
-            <element signature="e#3574#4141#0" />
-            <element signature="e#3970#4072#0" />
-            <element signature="e#4078#4131#0" />
-            <element signature="e#4182#4314#0" />
-            <element signature="e#4237#4302#0" />
-            <element signature="e#4350#4540#0" />
-            <element signature="e#4439#4499#0" />
-            <element signature="e#4571#4781#0" />
-            <element signature="e#4592#4771#0" />
-            <element signature="e#4812#4854#0" />
-            <element signature="e#5704#6083#0" />
-            <element signature="e#5882#5979#0" />
-            <element signature="e#5971#6101#0" />
-            <element signature="e#6026#6087#0" />
-            <element signature="e#6128#6480#0" />
-            <element signature="e#6148#6470#0" />
-            <element signature="e#6530#8013#0" />
-            <element signature="e#6659#7097#0" />
-            <element signature="e#7122#7601#0" />
-            <element signature="e#8051#8180#0" />
-            <element signature="e#8215#8940#0" />
-            <element signature="e#8599#8712#0" />
-            <element signature="e#8718#8930#0" />
-            <element signature="e#8970#9128#0" />
-            <element signature="e#8842#8977#0" />
-            <element signature="e#9651#9719#0" />
-            <element signature="e#9779#10294#0" />
-            <element signature="e#10124#10173#0" />
-            <element signature="e#10331#10373#0" />
-            <element signature="e#11027#11162#0" />
-            <element signature="e#11067#11152#0" />
-            <element signature="e#11208#11424#0" />
-            <element signature="e#11467#11708#0" />
-            <element signature="e#11780#12534#0" />
-            <element signature="e#12014#12528#0" />
-            <element signature="e#12579#13095#0" />
-            <element signature="e#12719#13089#0" />
-            <element signature="e#13108#13418#0" />
-            <element signature="e#13136#13412#0" />
-            <element signature="e#13201#13335#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#36#470#0" />
-            <element signature="e#503#1076#0" />
-            <element signature="e#1078#1195#0" />
-            <element signature="e#1348#4862#0" />
-            <element signature="e#1402#1528#0" />
-            <element signature="e#1593#1769#0" />
-            <element signature="e#1623#1712#0" />
-            <element signature="e#1718#1763#0" />
-            <element signature="e#1822#1861#0" />
-            <element signature="e#1915#2011#0" />
-            <element signature="e#2018#2115#0" />
-            <element signature="e#2158#2318#0" />
-            <element signature="e#2233#2276#0" />
-            <element signature="e#2336#2594#0" />
-            <element signature="e#2346#2408#0" />
-            <element signature="e#2427#2479#0" />
-            <element signature="e#2497#2545#0" />
-            <element signature="e#2607#4860#0" />
-            <element signature="e#2652#3174#0" />
-            <element signature="e#2753#2849#0" />
-            <element signature="e#2855#2894#0" />
-            <element signature="e#2927#2995#0" />
-            <element signature="e#3021#3088#0" />
-            <element signature="e#3214#3537#0" />
-            <element signature="e#3304#3351#0" />
-            <element signature="e#3422#3527#0" />
-            <element signature="e#3574#4141#0" />
-            <element signature="e#3970#4072#0" />
-            <element signature="e#4078#4131#0" />
-            <element signature="e#4182#4314#0" />
-            <element signature="e#4237#4302#0" />
-            <element signature="e#4350#4540#0" />
-            <element signature="e#4439#4499#0" />
-            <element signature="e#4571#4781#0" />
-            <element signature="e#4592#4771#0" />
-            <element signature="e#4812#4854#0" />
-            <element signature="e#5704#6083#0" />
-            <element signature="e#5882#5979#0" />
-            <element signature="e#5971#6101#0" />
-            <element signature="e#6026#6087#0" />
-            <element signature="e#6128#6480#0" />
-            <element signature="e#6148#6470#0" />
-            <element signature="e#6530#8013#0" />
-            <element signature="e#6659#7097#0" />
-            <element signature="e#7122#7601#0" />
-            <element signature="e#8051#8180#0" />
-            <element signature="e#8215#8940#0" />
-            <element signature="e#8599#8712#0" />
-            <element signature="e#8718#8930#0" />
-            <element signature="e#8970#9128#0" />
-            <element signature="e#8842#8977#0" />
-            <element signature="e#9651#9719#0" />
-            <element signature="e#9779#10294#0" />
-            <element signature="e#10124#10173#0" />
-            <element signature="e#10331#10373#0" />
-            <element signature="e#11027#11162#0" />
-            <element signature="e#11067#11152#0" />
-            <element signature="e#11208#11424#0" />
-            <element signature="e#11467#11708#0" />
-            <element signature="e#11780#12534#0" />
-            <element signature="e#12014#12528#0" />
-            <element signature="e#12579#13095#0" />
-            <element signature="e#12719#13089#0" />
-            <element signature="e#13108#13418#0" />
-            <element signature="e#13136#13412#0" />
-            <element signature="e#13201#13335#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -847,13 +614,6 @@
     <entry file="file://$PROJECT_DIR$/Section 2/1 - Language Basics/script.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Section 2/2 - CH One/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Section 2/3 - CH Two/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -918,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Section 3/1 - Hoisting/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Section 2/1 - Language Basics/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1420">
@@ -946,34 +699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="48" column="100" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="100" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="166" column="48" lean-forward="true" selection-start-line="166" selection-start-column="48" selection-end-line="166" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="270" column="81" selection-start-line="270" selection-start-column="81" selection-end-line="270" selection-end-column="81" />
+        <state relative-caret-position="391">
+          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
           <folding>
             <element signature="e#36#470#0" />
             <element signature="e#503#1076#0" />
@@ -1041,6 +770,101 @@
             <element signature="e#13108#13418#0" />
             <element signature="e#13136#13412#0" />
             <element signature="e#13201#13335#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="48" column="100" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/back.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3459">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="72" lean-forward="true" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 3/1 - Hoisting/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="e#25#772#0" />
+            <element signature="e#799#1067#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 2/2 - CH One/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="240" lean-forward="true" selection-start-line="240" selection-end-line="240" />
+          <folding>
+            <element signature="e#53#885#0" />
+            <element signature="e#917#1326#0" />
+            <element signature="e#1328#1706#0" />
+            <element signature="e#1745#2146#0" />
+            <element signature="e#2148#2351#0" />
+            <element signature="e#2391#3117#0" />
+            <element signature="e#3165#3809#0" />
+            <element signature="e#3811#3933#0" />
+            <element signature="e#3990#4341#0" />
+            <element signature="e#4343#4437#0" />
+            <element signature="e#4463#5297#0" />
+            <element signature="e#5299#5602#0" />
+            <element signature="e#5648#6150#0" />
+            <element signature="e#5749#6148#0" />
+            <element signature="e#5782#5949#0" />
+            <element signature="e#5980#6142#0" />
+            <element signature="e#6164#6217#0" />
+            <element signature="n#!!block;n#calculateAges#0" />
+            <element signature="e#6598#6638#0" />
+            <element signature="n#!!block;n#calculateAge#0" />
+            <element signature="n#!!block;n#isFullAge#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 7/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 7/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="223" column="9" lean-forward="true" selection-start-line="223" selection-start-column="9" selection-end-line="223" selection-end-column="9" />
+          <folding>
+            <element signature="e#1673#2087#0" />
+            <element signature="e#2060#2872#0" />
+            <element signature="e#2873#3368#0" />
+            <element signature="e#3371#5154#0" />
           </folding>
         </state>
       </provider>
