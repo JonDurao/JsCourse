@@ -289,3 +289,248 @@ console.log(ages[full.indexOf(false)]);
 // ES6
 console.log(ages.findIndex(value => value <= 18));
 console.log(ages.find(value => value <= 18));*/
+/**
+ * Lecture 102 (Spread operator)
+
+function addAges(a, b, c, d) {
+    return a + b + c + d;
+}
+
+var sum1 = addAges(1, 2, 3, 4);
+console.log(sum1);
+
+// ES5
+var ages = [1, 2, 3, 5];
+// apply uses elements of the array as arguments in the call
+var sum2 = addAges.apply(null, ages);
+console.log(sum2);
+
+// ES6
+// ... expands an array into its components
+const sum3 = addAges(...ages);
+console.log(sum3);
+
+const familySmith = ['John', 'Jane', 'Mark'];
+const familyMiller = ['Mary', 'Bob', 'Ann'];
+const bigFamily = [...familyMiller, 'Test', ...familySmith];
+console.log(bigFamily);
+
+const elementBoxes = document.querySelectorAll('.box');
+const elementHeading = document.querySelector('h1');
+
+const allElements = [...elementBoxes, elementHeading];
+console.log(allElements);
+
+allElements.forEach(value => {
+    value.style.backgroundColor = 'dodgerblue';
+    value.style.color = 'purple';
+});*/
+/**
+ * Lecture 103 (REST Parameters of function)
+// transform multiple single values into an array
+
+// ES5
+function isFullAgeES5() {
+    console.log(arguments);
+
+    var argsArr = Array.prototype.slice.call(arguments);
+    console.log(argsArr);
+
+    argsArr.forEach(function (value) {
+       console.log((2018 - value) >= 18);
+    });
+}
+isFullAgeES5(1992, 1996, 2002, 2012);
+
+// ES6
+function isFullAgeES6(...years) {
+    console.log(years);
+    years.forEach(value => console.log((2018 - value) >= 18));
+}
+
+isFullAgeES6(1992, 1996, 2002, 2012);
+
+// ES55
+function isFullAgeES55(limit) {
+    // Excluimos el primer argumento que seria limit
+    var argsArr = Array.prototype.slice.call(arguments, 1);
+    console.log(argsArr);
+
+    argsArr.forEach(function (value) {
+        console.log((2018 - value) >= limit);
+    });
+}
+isFullAgeES55(21, 1992, 1998, 2002, 2012);
+
+// ES66
+function isFullAgeES66(limit, ...years) {
+    console.log(years);
+    years.forEach(value => console.log((2018 - value) >= limit));
+}
+
+isFullAgeES66(21, 1992, 1998, 2002, 2012);*/
+/**
+ * Lecture 104 (Default Parameters)
+
+// ES5
+function personSmithES5(nombre, nacimiento, apellido, nacionalidad) {
+    this.nombre = (nombre === undefined) ? 'John' : nombre;
+    this.nacimiento = (nacimiento === undefined) ? 0 : nacimiento;
+    this.apellido = (apellido === undefined) ? 'Doe' : apellido;
+    this.nacionalidad = (nacionalidad === undefined) ? 'World' : nacionalidad;
+}
+
+var jon = new personSmithES5('Jon');
+console.log(jon);
+
+// ES6
+function personSmithES6(nombre = 'John', nacimiento = 1, apellido = 'Doe', nacionalidad='World') {
+    this.nombre = nombre;
+    this.nacimiento = nacimiento;
+    this.apellido = apellido;
+    this.nacionalidad = nacionalidad;
+}
+
+var jon6 = new personSmithES6('Jon');
+console.log(jon6);*/
+/**
+ * Lecture 105 (Maps)
+const question = new Map();
+question.set('question', 'What is love?');
+question.set(1, 'A Feeling');
+question.set(2, 'A Chemical Reaction');
+question.set(3, 'I\'m not sure');
+question.set(4, 'yaba yaba');
+question.set('correct', 1);
+question.set(true, 'You are right!!!');
+question.set(false, 'Really?');
+
+console.log(question);
+
+console.log(question.get('question'));
+
+console.log(question.size);
+
+if (question.has(4))
+    question.delete(4);
+
+console.log(question.size);
+
+question.forEach((value, key) => console.log(`This is the value ${key}, and it's set to \'${value}\'`));
+
+console.log('----------------------------------------------------------');
+
+console.log(question.get('question'));
+for (let [key, value] of question.entries()) {
+    if (typeof(key) === 'number'){
+        console.log(`Answer ${key}: ${value}`);
+    }
+}
+
+const ans = parseInt(prompt('Write the correct answer'));
+
+console.log(question.get(ans === question.get('correct')));
+
+console.log('----------------------------------------------------------');
+
+question.clear();
+console.log(question.size);*/
+/**
+ * Lecture 106 (Classes)
+// Make inheritance easier
+
+// ES5
+var PersonES5 = function (name, year, job) {
+    this.name = name;
+    this.year = year;
+    this.job = job;
+};
+
+PersonES5.prototype.calculateAge = function () {
+    var age = new Date().getFullYear() - this.year;
+    console.log(age);
+};
+
+var JonES5 = new PersonES5('Jon', 1992, 'Programmer');
+JonES5.calculateAge();
+
+// ES6
+// Not hoisted (Only used after their declaration)
+// Cannot add properties to classes
+class PersonES6 {
+    constructor (name, year, job){
+        this.name = name;
+        this.year = year;
+        this.job = job;
+    }
+
+    calculateAge(){
+        const age = PersonES6.getYear()  - this.year;
+        console.log(age);
+    }
+
+    static getYear(){
+        return new Date().getFullYear();
+    }
+
+    static greeting(){
+        console.log('Hello there');
+    }
+}
+
+let JonES6 = new PersonES6('Jon', 1992, 'Super Programmer');
+PersonES6.greeting();
+JonES6.calculateAge();*/
+// Lecture 107 (Classes with Subclasses)
+
+// ES5
+var PersonES5 = function (name, year, job) {
+    this.name = name;
+    this.year = year;
+    this.job = job;
+};
+
+PersonES5.prototype.calculateAge = function () {
+    var age = new Date().getFullYear() - this.year;
+    console.log(age);
+};
+
+var AthleteES5 = function (name, year,job, olympicGames, medals) {
+      PersonES5.call(this, name, year, job);
+      this.olympicGames = olympicGames;
+      this.medals = medals;
+};
+
+// Takes the prototype of  PersonES5
+AthleteES5.prototype = Object.create(PersonES5.prototype);
+
+AthleteES5.prototype.wonMedal = function(){
+    if (this.medals > 0)
+        console.log("Winner!!!!");
+};
+
+var JonES5 = new AthleteES5('Jon', 1992, 'Programmer', 4, 2);
+JonES5.calculateAge();
+JonES5.wonMedal();
+
+// ES6
+class PersonES6 {
+    constructor (name, year, job){
+        this.name = name;
+        this.year = year;
+        this.job = job;
+    }
+
+    calculateAge(){
+        const age = PersonES6.getYear()  - this.year;
+        console.log(age);
+    }
+
+    static getYear(){
+        return new Date().getFullYear();
+    }
+
+    static greeting(){
+        console.log('Hello there');
+    }
+}

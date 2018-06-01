@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section 7/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section 7/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6/1 - Budgety/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Section 6/1 - Budgety/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section 7/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Section 7/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,12 +24,18 @@
         <entry file="file://$PROJECT_DIR$/Section 7/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="223" column="9" lean-forward="true" selection-start-line="223" selection-start-column="9" selection-end-line="223" selection-end-column="9" />
+              <caret line="515" column="6" selection-start-line="515" selection-start-column="6" selection-end-line="515" selection-end-column="6" />
               <folding>
-                <element signature="e#1673#2087#0" />
+                <element signature="e#1644#2059#0" />
                 <element signature="e#2060#2872#0" />
-                <element signature="e#2873#3368#0" />
-                <element signature="e#3371#5154#0" />
+                <element signature="e#2873#3370#0" />
+                <element signature="e#3371#5153#0" />
+                <element signature="e#5154#5701#0" />
+                <element signature="e#5702#6674#0" />
+                <element signature="e#6675#7565#0" />
+                <element signature="e#7566#8618#0" />
+                <element signature="e#8619#9362#0" />
+                <element signature="e#9363#10466#0" />
               </folding>
             </state>
           </provider>
@@ -41,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Section 7/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
+            <state relative-caret-position="598">
               <caret line="26" column="21" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
@@ -143,6 +146,17 @@
             <path>
               <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Course1" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course1" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 6" type="462c0819:PsiDirectoryNode" />
+              <item name="1 - Budgety" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course1" type="462c0819:PsiDirectoryNode" />
               <item name="Section 7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -157,7 +171,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Section 7/index.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/1 - Budgety" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -234,7 +248,10 @@
       <workItem from="1527244861051" duration="4186000" />
       <workItem from="1527493256964" duration="7929000" />
       <workItem from="1527512932515" duration="18164000" />
-      <workItem from="1527665521863" duration="9588000" />
+      <workItem from="1527665521863" duration="11812000" />
+      <workItem from="1527750038385" duration="6793000" />
+      <workItem from="1527847346498" duration="170000" />
+      <workItem from="1527851241085" duration="4235000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 18 Added">
       <created>1519995180286</created>
@@ -327,11 +344,25 @@
       <option name="project" value="LOCAL" />
       <updated>1527666567560</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Project 6">
+      <created>1527691986309</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1527691986309</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Project 6">
+      <created>1527695077722</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1527695077722</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104681000" />
+    <option name="totallyTimeSpent" value="118103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -778,9 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="48" column="100" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="100" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,21 +822,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="72" lean-forward="true" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/index.html" />
     <entry file="file://$PROJECT_DIR$/Section 3/1 - Hoisting/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-          <folding>
-            <element signature="e#25#772#0" />
-            <element signature="e#799#1067#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,7 +869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Section 7/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="598">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
@@ -859,12 +877,18 @@
     <entry file="file://$PROJECT_DIR$/Section 7/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="223" column="9" lean-forward="true" selection-start-line="223" selection-start-column="9" selection-end-line="223" selection-end-column="9" />
+          <caret line="515" column="6" selection-start-line="515" selection-start-column="6" selection-end-line="515" selection-end-column="6" />
           <folding>
-            <element signature="e#1673#2087#0" />
+            <element signature="e#1644#2059#0" />
             <element signature="e#2060#2872#0" />
-            <element signature="e#2873#3368#0" />
-            <element signature="e#3371#5154#0" />
+            <element signature="e#2873#3370#0" />
+            <element signature="e#3371#5153#0" />
+            <element signature="e#5154#5701#0" />
+            <element signature="e#5702#6674#0" />
+            <element signature="e#6675#7565#0" />
+            <element signature="e#7566#8618#0" />
+            <element signature="e#8619#9362#0" />
+            <element signature="e#9363#10466#0" />
           </folding>
         </state>
       </provider>
