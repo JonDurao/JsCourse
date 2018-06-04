@@ -5,7 +5,7 @@ This repository contains all the examples developed during a JS bootcamp, going 
 In the different sections you'll find
 
 ## Section 2
-  - Language Basics
+ - Language Basics
     - Variables and data types
     - Variable mutation and type coercion
     - Operators
@@ -15,3 +15,5 @@ In the different sections you'll find
     - Objects and properties
     - Objects and methods
     - Loops and iterations
+  - Coding Challenge with Operations
+  - Coding Challenge with Arrays
