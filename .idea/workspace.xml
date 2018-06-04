@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Section 7/CH - 1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 7/CH - 1/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 7/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Section 7/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section 7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Section 7/1 - ES6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section 7/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Section 7/1 - ES6/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Section 7/script.js">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section 7/1 - ES6/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="515" column="6" selection-start-line="515" selection-start-column="6" selection-end-line="515" selection-end-column="6" />
+            <state relative-caret-position="456">
+              <caret line="429" column="17" selection-start-line="429" selection-start-column="12" selection-end-line="429" selection-end-column="17" />
               <folding>
                 <element signature="e#1644#2059#0" />
                 <element signature="e#2060#2872#0" />
@@ -35,17 +38,27 @@
                 <element signature="e#6675#7565#0" />
                 <element signature="e#7566#8618#0" />
                 <element signature="e#8619#9362#0" />
-                <element signature="e#9363#10466#0" />
+                <element signature="e#10467#11432#0" />
+                <element signature="e#11433#12896#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Section 7/index.html">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Section 7/CH - 1/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="308">
+              <caret line="93" column="29" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="690" column="62" selection-start-line="690" selection-start-column="27" selection-end-line="690" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -70,7 +83,6 @@
       <find>fff</find>
       <find>totalIn</find>
       <find>container</find>
-      <find>parse</find>
       <find>remove</find>
       <find>querySelectorAll</find>
       <find>for</find>
@@ -78,6 +90,9 @@
       <find>delete</find>
       <find>add__description</find>
       <find>ion-ios-checkmark-outline</find>
+      <find>swit</find>
+      <find>sw</find>
+      <find>parse</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -111,6 +126,9 @@
         <option value="$PROJECT_DIR$/Section 6/1 - Budgety/style.css" />
         <option value="$PROJECT_DIR$/Section 7/index.html" />
         <option value="$PROJECT_DIR$/Section 7/script.js" />
+        <option value="$PROJECT_DIR$/Section 7/1 - ES6/script.js" />
+        <option value="$PROJECT_DIR$/Section 7/CH - 1/index.html" />
+        <option value="$PROJECT_DIR$/Section 7/CH - 1/script.js" />
       </list>
     </option>
   </component>
@@ -123,7 +141,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1294" />
     <option name="height" value="1047" />
@@ -136,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,24 +165,24 @@
             <path>
               <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Course1" type="462c0819:PsiDirectoryNode" />
-              <item name="Section 6" type="462c0819:PsiDirectoryNode" />
-              <item name="1 - Budgety" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Course1" type="462c0819:PsiDirectoryNode" />
               <item name="Section 7" type="462c0819:PsiDirectoryNode" />
+              <item name="1 - ES6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course1" type="462c0819:PsiDirectoryNode" />
+              <item name="Section 7" type="462c0819:PsiDirectoryNode" />
+              <item name="CH - 1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,22 +190,24 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/1 - Budgety" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Section 7/CH - 1/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 5\QuizGame" />
-      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 5\1 - AdvancedJs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 7\1 - ES6" />
       <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 6\1 - Budgety" />
       <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 6" />
       <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 4\1 - DiceGame" />
       <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 2\1 - Language Basics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 5\QuizGame" />
+      <recent name="C:\Users\Jon Durao\WebstormProjects\Course1\Section 5\1 - AdvancedJs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -202,7 +223,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Unnamed">
-    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" activateToolWindowBeforeRun="false" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/Course1/Section 7/index.html" />
+    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" activateToolWindowBeforeRun="false" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/Course1/Section 7/CH - 1/index.html" />
     <configuration name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Section 2/1 - Language Basics" />
     <list>
       <item itemvalue="JavaScript Debug.Unnamed" />
@@ -252,6 +273,7 @@
       <workItem from="1527750038385" duration="6793000" />
       <workItem from="1527847346498" duration="170000" />
       <workItem from="1527851241085" duration="4235000" />
+      <workItem from="1528097265904" duration="7808000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 18 Added">
       <created>1519995180286</created>
@@ -362,16 +384,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118103000" />
+    <option name="totallyTimeSpent" value="125911000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.37261146" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007962" side_tool="true" weight="0.32997763" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49920383" weight="0.32997763" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -384,7 +407,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,31 +491,10 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="28" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 5/1 - AdvancedJs/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -681,13 +682,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/challenges.js" />
-    <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -709,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Section 2/1 - Language Basics/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1420">
-          <caret line="271" column="13" selection-start-line="271" selection-start-column="13" selection-end-line="271" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Section 5/QuizGame/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -727,81 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1587">
           <caret line="69" column="34" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
-          <folding>
-            <element signature="e#36#470#0" />
-            <element signature="e#503#1076#0" />
-            <element signature="e#1078#1195#0" />
-            <element signature="e#1348#4862#0" />
-            <element signature="e#1402#1528#0" />
-            <element signature="e#1593#1769#0" />
-            <element signature="e#1623#1712#0" />
-            <element signature="e#1718#1763#0" />
-            <element signature="e#1822#1861#0" />
-            <element signature="e#1915#2011#0" />
-            <element signature="e#2018#2115#0" />
-            <element signature="e#2158#2318#0" />
-            <element signature="e#2233#2276#0" />
-            <element signature="e#2336#2594#0" />
-            <element signature="e#2346#2408#0" />
-            <element signature="e#2427#2479#0" />
-            <element signature="e#2497#2545#0" />
-            <element signature="e#2607#4860#0" />
-            <element signature="e#2652#3174#0" />
-            <element signature="e#2753#2849#0" />
-            <element signature="e#2855#2894#0" />
-            <element signature="e#2927#2995#0" />
-            <element signature="e#3021#3088#0" />
-            <element signature="e#3214#3537#0" />
-            <element signature="e#3304#3351#0" />
-            <element signature="e#3422#3527#0" />
-            <element signature="e#3574#4141#0" />
-            <element signature="e#3970#4072#0" />
-            <element signature="e#4078#4131#0" />
-            <element signature="e#4182#4314#0" />
-            <element signature="e#4237#4302#0" />
-            <element signature="e#4350#4540#0" />
-            <element signature="e#4439#4499#0" />
-            <element signature="e#4571#4781#0" />
-            <element signature="e#4592#4771#0" />
-            <element signature="e#4812#4854#0" />
-            <element signature="e#5704#6083#0" />
-            <element signature="e#5882#5979#0" />
-            <element signature="e#5971#6101#0" />
-            <element signature="e#6026#6087#0" />
-            <element signature="e#6128#6480#0" />
-            <element signature="e#6148#6470#0" />
-            <element signature="e#6530#8013#0" />
-            <element signature="e#6659#7097#0" />
-            <element signature="e#7122#7601#0" />
-            <element signature="e#8051#8180#0" />
-            <element signature="e#8215#8940#0" />
-            <element signature="e#8599#8712#0" />
-            <element signature="e#8718#8930#0" />
-            <element signature="e#8970#9128#0" />
-            <element signature="e#8842#8977#0" />
-            <element signature="e#9651#9719#0" />
-            <element signature="e#9779#10294#0" />
-            <element signature="e#10124#10173#0" />
-            <element signature="e#10331#10373#0" />
-            <element signature="e#11027#11162#0" />
-            <element signature="e#11067#11152#0" />
-            <element signature="e#11208#11424#0" />
-            <element signature="e#11467#11708#0" />
-            <element signature="e#11780#12534#0" />
-            <element signature="e#12014#12528#0" />
-            <element signature="e#12579#13095#0" />
-            <element signature="e#12719#13089#0" />
-            <element signature="e#13108#13418#0" />
-            <element signature="e#13136#13412#0" />
-            <element signature="e#13201#13335#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,17 +779,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Section 7/index.html">
+    <entry file="file://$PROJECT_DIR$/Section 7/1 - ES6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="690">
+          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Section 7/script.js">
+    <entry file="file://$PROJECT_DIR$/Section 7/CH - 1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="515" column="6" selection-start-line="515" selection-start-column="6" selection-end-line="515" selection-end-column="6" />
+        <state relative-caret-position="115">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 2/1 - Language Basics/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 6/1 - Budgety/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="237" column="23" selection-start-line="237" selection-start-column="23" selection-end-line="237" selection-end-column="23" />
+          <folding>
+            <element signature="e#36#470#0" />
+            <element signature="e#503#1076#0" />
+            <element signature="e#1078#1195#0" />
+            <element signature="e#1348#4862#0" />
+            <element signature="e#1402#1528#0" />
+            <element signature="e#1593#1769#0" />
+            <element signature="e#1623#1712#0" />
+            <element signature="e#1718#1763#0" />
+            <element signature="e#1822#1861#0" />
+            <element signature="e#1915#2011#0" />
+            <element signature="e#2018#2115#0" />
+            <element signature="e#2158#2318#0" />
+            <element signature="e#2233#2276#0" />
+            <element signature="e#2336#2594#0" />
+            <element signature="e#2346#2408#0" />
+            <element signature="e#2427#2479#0" />
+            <element signature="e#2497#2545#0" />
+            <element signature="e#2607#4860#0" />
+            <element signature="e#2652#3174#0" />
+            <element signature="e#2753#2849#0" />
+            <element signature="e#2855#2894#0" />
+            <element signature="e#2927#2995#0" />
+            <element signature="e#3021#3088#0" />
+            <element signature="e#3214#3537#0" />
+            <element signature="e#3304#3351#0" />
+            <element signature="e#3422#3527#0" />
+            <element signature="e#3574#4141#0" />
+            <element signature="e#3970#4072#0" />
+            <element signature="e#4078#4131#0" />
+            <element signature="e#4182#4314#0" />
+            <element signature="e#4237#4302#0" />
+            <element signature="e#4350#4540#0" />
+            <element signature="e#4439#4499#0" />
+            <element signature="e#4571#4781#0" />
+            <element signature="e#4592#4771#0" />
+            <element signature="e#4812#4854#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 4/1 - DiceGame/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 7/1 - ES6/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="429" column="17" selection-start-line="429" selection-start-column="12" selection-end-line="429" selection-end-column="17" />
           <folding>
             <element signature="e#1644#2059#0" />
             <element signature="e#2060#2872#0" />
@@ -888,8 +866,23 @@
             <element signature="e#6675#7565#0" />
             <element signature="e#7566#8618#0" />
             <element signature="e#8619#9362#0" />
-            <element signature="e#9363#10466#0" />
+            <element signature="e#10467#11432#0" />
+            <element signature="e#11433#12896#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="690" column="62" selection-start-line="690" selection-start-column="27" selection-end-line="690" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section 7/CH - 1/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="93" column="29" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="29" />
         </state>
       </provider>
     </entry>

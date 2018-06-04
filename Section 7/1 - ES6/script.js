@@ -481,8 +481,8 @@ class PersonES6 {
 let JonES6 = new PersonES6('Jon', 1992, 'Super Programmer');
 PersonES6.greeting();
 JonES6.calculateAge();*/
-// Lecture 107 (Classes with Subclasses)
-
+/**
+ * Lecture 107 (Classes with Subclasses)
 // ES5
 var PersonES5 = function (name, year, job) {
     this.name = name;
@@ -522,15 +522,25 @@ class PersonES6 {
     }
 
     calculateAge(){
-        const age = PersonES6.getYear()  - this.year;
+        const age = new Date().getFullYear()  - this.year;
         console.log(age);
     }
+};
 
-    static getYear(){
-        return new Date().getFullYear();
+class AthleteES6 extends PersonES6 {
+    constructor (name, year, job, olympicGames, medals){
+        super(name, year, job);
+        this.olympicGames = olympicGames;
+        this.medals = medals;
     }
 
-    static greeting(){
-        console.log('Hello there');
+    wonMedal(){
+        if (this.medals > 0){
+            console.log('Winner ES6!!!!');
+        }
     }
 }
+
+const JonES6 = new AthleteES6('Jon6', 1992, 'Athlete', 6, 6);
+JonES6.calculateAge();
+JonES6.wonMedal();*/
