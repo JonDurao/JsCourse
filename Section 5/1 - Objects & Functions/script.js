@@ -1,5 +1,5 @@
-// Lecture 53 (Function constructor !!!MAS MEJOR!!!)
-/*
+/**
+ * Lecture 53 (Function constructor)
 var jon = {
     name: 'Jon',
     yearBirth: 1992,
@@ -20,6 +20,7 @@ Person.prototype.calculateAge = function () {
     console.log(2018 - this.yearBirth);
 };
 
+ // Adds the property to all the objects of the type Person
 Person.prototype.lastName = 'Durao';
 
 var jon = new Person('Jon', 1992, 'Programmer');
@@ -37,9 +38,8 @@ console.log(jon.hasOwnProperty('lastName'));
 var x = [2,4,6];
 console.info(x);
 */
-
-// Lecture 54 (Object.Create)
-/*
+/**
+ * Lecture 54 (Object.Create)
 var personProto = {
     calculateAge: function () {
         console.log(2018 - this.yearBirth);
@@ -54,7 +54,6 @@ var luis = Object.create(personProto, { name: {value: 'Luis'},
                                         yearBirth: {value: 1996},
                                         job: {value: 'Student'}});
 */
-
 /**
  * Objects vs Primitives
  * Primitive only the defined types (rest are objects)
@@ -62,8 +61,8 @@ var luis = Object.create(personProto, { name: {value: 'Luis'},
  * Variables contained in objects don't hold the data per se, only a reference to the memory stack
  * Inner functions change an object (as it is a reference) but not primitives, it changes a copy, not the global one
  **/
-// Lecture 55 (Objects vs Primitives)
-/*
+/**
+ * Lecture 55 (Objects vs Primitives)
 // Primitives
 var a = 23;
 var b = a;
@@ -96,7 +95,6 @@ change(age, obj);
 console.log(age);
 console.log(obj.city);
 */
-
 /**
  * Functions
  * - They are intances of type Object
@@ -105,8 +103,8 @@ console.log(obj.city);
  * - Can be passed as an argument
  * - Can be returned from another function
  */
-// Lecture 56 (Functions as Arguments)
-/*
+/**
+ * Lecture 56 (Callbacks. Functions as Arguments)
 var years = [1992, 1996, 2002];
 
 function arrayCalc(vector, fn) {
@@ -142,9 +140,8 @@ console.log(fullAges);
 var fullHeartRates = arrayCalc(ages, maxHeartRate);
 console.log(fullHeartRates);
 */
-
-// Lecture 57 (Functions Returning Functions)
-/*
+/**
+ * Lecture 57 (Functions Returning Functions)
 function interviewQuestion(job) {
     if (job === 'Designer'){
         return function (name) {
@@ -168,15 +165,14 @@ teacherQuestion("Jon");
 designerQuestion("Luis");
 interviewQuestion("Other")("Manu");
 */
-
 /**
  * Immediately Invoke Function Expressions
  * Function Called on its own
  * Preserves data privacy
  * Not reusable
  */
-// Lecture 58 (Immediately Invoke Function Expressions)
-/*
+/**
+ * Lecture 58 (IIFEs. Immediately Invoke Function Expressions)
 // Normal Way
 function game() {
     var score = Math.random() * 10;
@@ -195,13 +191,12 @@ game();
     console.log(score >= (5-goodLuck));
 })(4);
 */
-
 /**
  * Closures
- * Variables de una funcion pueden ser accedidas incluso despues de return
+ * Variables of a function can be accessed after the return
  */
-// Lecture 59 (Closures)
-/*
+/**
+ * Lecture 59 (Closures)
 function retirement(retirementAge){
     var a = ' Years left.'
 
@@ -236,17 +231,15 @@ var Jon = interviewQuestion('Programmer');
 Jon("Jon");
 
 interviewQuestion("Student")("Luis");
-interviewQuestion("MiniStudent")("Manu");
-*/
-
+interviewQuestion("MiniStudent")("Manu");*/
 /**
  * Bind, Call, Apply
  * CALL -> can call a function with a different object being referenced by THIS! (Method Borrowing)
- * APPLY -> simillar to CALL but using an array to pass the rest of the arguments
+ * APPLY -> similar to CALL but using an array to pass the rest of the arguments
  * BIND -> generates a copy of the function changing "this" for a new object specified by us
  */
-// Lecture 60 (Bind, Call, Apply)
-
+/**
+ * Lecture 60 (Bind, Call, Apply)
 var Jon = {
     name: 'Jon',
     age: 25,
@@ -269,7 +262,7 @@ var Luis = {
 Jon.presentation('formal', 'morning');
 
 Jon.presentation.call(Luis, 'friendly', 'night');
-//Jon.presentation.apply(Luis, ['friendly', 'night']);
+Jon.presentation.apply(Luis, ['friendly', 'night']);
 
 var luisFormal = Jon.presentation.bind(Luis, 'formal');
 luisFormal('morning');
@@ -298,4 +291,4 @@ var ages = calculateAges(years, calculateAge);
 var fullJapan = calculateAges(ages, isFullAge.bind(this, 20));
 
 console.log(ages);
-console.log(fullJapan);
+console.log(fullJapan);*/

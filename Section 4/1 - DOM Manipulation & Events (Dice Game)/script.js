@@ -1,9 +1,22 @@
 var activePlayer, dice, dices, gamePlaying, lastRoll, roundScore, scores;
+
 // document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
 // document.querySelector('.btn-roll').addEventListener('click', testButton);
 
+/*
+function testButton(){
+    console.log('Button clicked');
+}
+*/
+
+
 initGame();
 
+/**
+ * Query Selector and addEventListener
+ * '.' for Classes & '#' for IDs
+ * For the event listener we define the event we wait and the callback function we use
+ */
 document.querySelector('.btn-hold').addEventListener('click', function () {
     if (gamePlaying) {
         scores[activePlayer] += roundScore;
@@ -57,6 +70,11 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
     }
 });
 
+/**
+ * GetElementByID||CSS||NAME & classList && style.property
+ * classList add and remove to add css classes to different elements
+ * style.cssProperty to assign a value to it
+ */
 function initGame() {
     activePlayer = 0;
     dice = 0;
@@ -89,22 +107,15 @@ function nextPlayer() {
     document.querySelector('.player-0-panel').classList.toggle('active');
     document.querySelector('.player-1-panel').classList.toggle('active');
 
-    /*
-    switch (activePlayer) {
+    /*switch (activePlayer) {
         case 0:
             activePlayer = 1;
             break;
         case 1:
             activePlayer = 0;
             break;
-    }
-    */
+    }*/
+
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
     roundScore = 0;
 }
-
-/*
-function testButton(){
-    console.log('Button clicked');
-}
-*/

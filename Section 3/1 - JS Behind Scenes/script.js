@@ -1,14 +1,13 @@
-// Lecture 30 (Hoisting)
-/*
-// En la creacion del contexto de ejecucion se declaran las funciones antes de ejecutar el codigo
+/**
+ * Lecture 30 (Hoisting)
+ // In the creation of the execution context functions are declared before executing the code
 calculateAge(1990);
 function calculateAge(year) {
     console.log(2018 - year);
 }
 calculateAge(1999);
-
-// Type Error, hoisting solo funciona con declaraciones de funciones exlicitas
-// retirement(1996);
+ // Type Error, hoisting only works with explicit function declaration
+ // retirement(1996);
 var retirement = function (year) {
     console.log(65 - (2018 - year));
 };
@@ -19,19 +18,17 @@ console.log(age);
 var age = 25;
 console.log(age);
 
-
 function foo() {
     // created by JS as a new object variable "age" (different from the one in the global context)
-     var age = 65;
-     console.log(age);
+    var age = 65;
+    console.log(age);
 }
 
 foo();
 console.log(age);
 */
-
- // Lecture 31 (Scoping)
-/*
+/**
+ * Lecture 31 (Scoping)
 var a = "A";
 first();
 
@@ -52,8 +49,8 @@ function third() {
     console.log(a+b+c+d);
 }
 */
-
-// Lecture 33 (this)
+/**
+ * Lecture 33 (This)
 console.log(this);
 calculateAge(1999);
 
@@ -86,4 +83,4 @@ var luis = {
 };
 
 luis.calculateAge = Jon.calculateAge;
-luis.calculateAge();
+luis.calculateAge();*/

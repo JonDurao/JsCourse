@@ -1,7 +1,6 @@
 /**
  * EXAMPLE OF PRIVACY IN JS
- */
-/*var budgetController = (function () {
+var budgetController = (function () {
    // private data and functionality
     var x = 23;
 
@@ -21,8 +20,8 @@ console.log(budgetController.x);
 console.log(budgetController.publicTest(25));
 console.log(budgetController.add(25));*/
 
-// Lecture 68 - Module Pattern
 /**
+ * Lecture 68 - Module Pattern
  * Closures and EFI (Immediately Invoked Function)
 var budgetController = (function () {
     var x = 23;
@@ -51,8 +50,7 @@ var controller = (function (budgetCtrl, uiCtrl) {
     }
 })(budgetController, UIController);*/
 
-// Lecture 69 - Event Listener for key press   ////  Lecture 70 - Reading Input data  //// Lecture 71 - Init Function
-    //// Lecture 72 //// Lecture 73 //// Lecture 74 //// Lecture 75 //// Lecture 76 //// Lecture 77 //// Lecture 78
+// Lecture 69 - Event Listener for key press   ////  Lecture 70 - Reading Input data  //// Lecture 71 - Init Function //// Lecture 72 //// Lecture 73 //// Lecture 74 //// Lecture 75 //// Lecture 76 //// Lecture 77 //// Lecture 78
 var budgetController = (function () {
     var Expense = function (id, description, value) {
         this.id = id;
@@ -207,7 +205,6 @@ var UIController = (function () {
     };
 
     var formatNumber = function(num, type){
-        var sign;
         num = Math.abs(num);
         num = num.toFixed(2);
 
@@ -234,7 +231,7 @@ var UIController = (function () {
             return{
                 type: document.querySelector(DomString.INPUT_TYPE).value, // Will be inc or exp
                 description: document.querySelector(DomString.INPUT_DESCRIPTION).value,
-                // pasar de string a float o int
+                // parse value to float
                 value: parseFloat(document.querySelector(DomString.INPUT_VALUE).value)}
         },
         addListItem: function(obj, type, income){
@@ -314,7 +311,7 @@ var UIController = (function () {
             //fields.slice()
             fieldsArray = Array.prototype.slice.call(fields);
 
-            // valores disponibles value, index, array
+            // value, index, array
             fieldsArray.forEach(function (value) {
                 value.value = "";
             });

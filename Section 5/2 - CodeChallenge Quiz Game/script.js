@@ -1,3 +1,4 @@
+// IIFE
 (function () {
     var correcto;
     var preguntas = [];

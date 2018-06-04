@@ -1,5 +1,5 @@
 /**
- *
+ * Section 2 (JS Basics)
  * Datatypes -> Numbers (Always floating point)
  *              Strings
  *              Boolean
@@ -11,8 +11,10 @@
  *                  == equals value AND type
  */
 
-// Lectures 8 & 9 (Basic)
-/*var age = 25;
+/**
+ * Lecture 8 & 9 (Variables & Datatypes)
+
+var age = 25;
 var fullAge = true;
 var lastName = "Durao";
 var name = "Jon";
@@ -21,9 +23,9 @@ console.log("Hello World " + name + "!!");
 console.log("Your surname is " + lastName);
 console.log("You're " + age + " (this is " + fullAge + ")");
 */
-
-// Lecture 10 (Variables, prompt, alert)
-/*var job, married;
+/**
+ * Lecture 10 (Variable mutation and type coercion)
+var job, married;
 var age = 25;
 var name = "Jon";
 
@@ -45,9 +47,8 @@ console.log("Last name is " + lastName);
 // Send info in a pop up window
 alert("Alerta Alerta");
 */
-
-// Lecture 11 (Operators)
-/*
+/**
+ * Lecture 11 (Operators)
 var age = 25;
 var now = 2018;
 var year = now - age;
@@ -66,9 +67,8 @@ ageJon++;
 ageManu += ageJon;
 console.log(ageJon + " // " + ageManu);
 */
-
-// Lecture 12 (If/Else, Boolean logic, Switch)
-/*
+/**
+ * Lecture 12 & 13 (If/Else, Boolean logic, Switch)
 var age = 25;
 var job;
 var married = "25";
@@ -114,9 +114,8 @@ switch (job){
         break;
 }
 */
-
-// Lecture 16 (Fuctions)
-/*
+/**
+ * Lecture 16 (Functions)
 var birthYear, retirementYear;
 
 calculateAge(21, "Luis", 2018);
@@ -136,10 +135,9 @@ function calculateRetirement(name, year) {
     console.log("You'll retire the year " + retirementYear);
 }
 */
-
-// Lecture 17 (Statements & Expressions)
-/*
-// Expresions (Produces immediate value
+/**
+ * Lecture 17 (Statements & Expressions)
+// Expressions (Produces immediate value)
 3 + 4;
 var x = 3;
 
@@ -152,9 +150,8 @@ if (x === 5) {
     // do Stuff
 }
 */
-
-// Lecture 18 (Arrays)
-/*
+/**
+ * Lecture 18 (Arrays)
 var Jon = ["Jon", "Durao", 1992, "Programmer", false];
 var names = ["Jon", "Luis", "Manu"];
 var years = new Array(1992, 1996, 2002);
@@ -180,9 +177,8 @@ if (Jon.indexOf("Teacher") === -1){
     console.log("Jon is not a teacher")
 }
 */
-
-// Lecture 19 (Objects and Props)
-/*
+/**
+ * Lecture 19 (Objects & Properties)
 var jon = {
     name: "Jon",
     lastName:"Durao",
@@ -212,9 +208,8 @@ luis.married=false;
 
 console.log(luis);
 */
-
-// Lecture 20 (Objects and Methods)
-/*
+/**
+ * Lecture 20 (Objects & Methods)
 var jon = {
     name: "Jon",
     lastName:"Durao",
@@ -239,8 +234,8 @@ console.log(jon.age());
 jon.age = jon.age();
 console.log(jon);
 */
-
-// Lecture 21 (Loops)
+/**
+ * Lecture 21 (Loops & Iterations)
 for (var counter=0; counter<10; counter++){
     console.log(counter)
 }
@@ -272,4 +267,4 @@ for (var counterWhileTwo=0; counterWhileTwo<names.length; counterWhileTwo++){
         break;
     }
     console.log(names[counterWhileTwo]);
-}
+}*/
