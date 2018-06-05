@@ -29,10 +29,10 @@ In the different sections you'll find
  
  ## Section 5
  - Objects and functions
-  - Function constructor
-  - Object.create
-  - Objects Vs. Primitives
-  - Callback functions
-  - Returning a function from a function
-  - IIFEs
- - Coding challenge
+   - Function constructor
+   - Object.create
+   - Objects Vs. Primitives
+   - Callback functions
+   - Returning a function from a function
+   - IIFEs
+ - Coding challenge with objects and functions
