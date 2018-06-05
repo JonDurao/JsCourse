@@ -36,3 +36,26 @@ In the different sections you'll find
    - Returning a function from a function
    - IIFEs
  - Coding challenge with objects and functions
+
+## Section 7
+ - ES6
+   - Let and Const
+   - Blocks and IIFEs in ES6
+   - Strings in ES6
+   - Arrow functions
+   - Lexical this, arrow function
+   - Destructuring
+   - Arrays in ES6
+   - Spread operator
+   - REST parameters of function
+   - Default parameters
+   - Maps
+   - Classes
+   - Classes with extend
+  - Coding challenge with ES6
+ 
+ ## Section 8
+ - Async JS
+   - Timeout example
+   - Async using callbacks
+   - Async using promises
