@@ -175,3 +175,66 @@ getRecipesAW().then(result => console.log(result + ', Is the Best'));*/
  * It's part of the server
  * Own APIs or External APIs (GMaps, Weather, Movies...)
  */
+/**
+ * Lecture 117 (AJAX calls with FETCH and PROMISES)
+ * Fetch data from server (Modern)
+ * XML Http request (Better support but more complicated)
+ *
+ * No 'Access-Control-Allow-Origin' header caused by SAME ORIGIN policy of JS
+ * prevents making request to a domain different than our own domain
+ *
+ * For avoiding this CORS (Cross Origin Resource Sharing) was created
+ * API need to implement CORS
+ *
+ * If CORS is not implemented in the API we proxy the request through our own server
+ */
+let city = '', cityWoeid;
+const URL_CORS_ENABLER = 'https://cors-anywhere.herokuapp.com/';
+
+const functionsCity = function (input) {
+    fetch(`${URL_CORS_ENABLER}https://www.metaweather.com/api/location/search/?query=${input}`).then(result => {
+        //console.log(result.body);
+        return result.json();
+    })
+        .then(result => {
+            console.log(`${result[0].title}: ${result[0].woeid}`);
+            cityWoeid = result[0].woeid;
+            return result[0].woeid;
+        })
+        .then(result => {
+            console.log(result);
+            functionWeather(result);
+        })
+        .catch(error => console.log(error));
+};
+
+const functionWeather = function (input) {
+    fetch(`${URL_CORS_ENABLER}https://www.metaweather.com/api/location/${input}`)
+        .then(result => {
+            //console.log(result.json());
+            return result.json();
+        })
+        .then(result => {
+            const today = result.consolidated_weather[0];
+            console.log(`Max temperature in ${city.replace(/\b\w/g, l => l.toUpperCase())} today is ${today.max_temp}`);
+        })
+};
+
+const DOM_VARS = {
+    ID_INPUT_CITY: '#input-city',
+    ID_BUTTON_CITY_SEARCH:'#button_city_search'
+};
+
+document.querySelector(DOM_VARS.ID_BUTTON_CITY_SEARCH).addEventListener('click', () => {
+    city = document.querySelector(DOM_VARS.ID_INPUT_CITY).value;
+    functionsCity(city);
+});
+document.querySelector(DOM_VARS.ID_BUTTON_CITY_SEARCH).addEventListener('keypress', event => {
+    if (event.key === 'Enter'){
+        city = document.querySelector(DOM_VARS.ID_INPUT_CITY).value;
+        functionsCity(city);
+    }
+});
+
+
+//fetch('https://www.metaweather.com/api/location/');
