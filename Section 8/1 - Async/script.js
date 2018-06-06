@@ -229,7 +229,7 @@ document.querySelector(DOM_VARS.ID_BUTTON_CITY_SEARCH).addEventListener('click',
     city = document.querySelector(DOM_VARS.ID_INPUT_CITY).value;
     functionsCity(city);
 });
-document.querySelector(DOM_VARS.ID_BUTTON_CITY_SEARCH).addEventListener('keypress', event => {
+document.addEventListener('keypress', event => {
     if (event.key === 'Enter'){
         city = document.querySelector(DOM_VARS.ID_INPUT_CITY).value;
         functionsCity(city);
