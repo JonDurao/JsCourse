@@ -187,11 +187,15 @@ getRecipesAW().then(result => console.log(result + ', Is the Best'));*/
  * API need to implement CORS
  *
  * If CORS is not implemented in the API we proxy the request through our own server
- */
+
 let city = '', cityWoeid;
 const URL_CORS_ENABLER = 'https://cors-anywhere.herokuapp.com/';
+const DOM_VARS = {
+    ID_INPUT_CITY: '#input-city',
+    ID_BUTTON_CITY_SEARCH:'#button_city_search'
+};
 
-const functionsCity = function (input) {
+function functionCity (input) {
     fetch(`${URL_CORS_ENABLER}https://www.metaweather.com/api/location/search/?query=${input}`).then(result => {
         //console.log(result.body);
         return result.json();
@@ -208,7 +212,7 @@ const functionsCity = function (input) {
         .catch(error => console.log(error));
 };
 
-const functionWeather = function (input) {
+function functionWeather (input) {
     fetch(`${URL_CORS_ENABLER}https://www.metaweather.com/api/location/${input}`)
         .then(result => {
             //console.log(result.json());
@@ -220,21 +224,70 @@ const functionWeather = function (input) {
         })
 };
 
+document.querySelector(DOM_VARS.ID_BUTTON_CITY_SEARCH).addEventListener('click', () => {
+    city = document.querySelector(DOM_VARS.ID_INPUT_CITY).value;
+    functionCity(city);
+});
+
+document.addEventListener('keypress', event => {
+    if (event.key === 'Enter'){
+        city = document.querySelector(DOM_VARS.ID_INPUT_CITY).value;
+        functionCity(city);
+    }
+});*/
+/**
+ * Lecture 118 (AJAX calls with FETCH and ASYNC/AWAIT)
+
+
+let city = '', weatherData;
+const URL_CORS_ENABLER = 'https://cors-anywhere.herokuapp.com/';
+
 const DOM_VARS = {
     ID_INPUT_CITY: '#input-city',
     ID_BUTTON_CITY_SEARCH:'#button_city_search'
 };
 
+async function functionCity (input) {
+    try{
+        const result = await fetch(`${URL_CORS_ENABLER}https://www.metaweather.com/api/location/search/?query=${input}`);
+        //console.log(result);
+        const data = await result.json();
+        //console.log(data);
+
+        // store return value of the async function
+        functionWeather(data[0]).then(result => {
+            weatherData = result;
+            console.log(weatherData);
+        });
+    } catch (e) {
+        alert('Error!!');
+    } finally {
+        console.log('The End');
+    }
+}
+
+async function functionWeather (input) {
+    try {
+        const result = await fetch(`${URL_CORS_ENABLER}https://www.metaweather.com/api/location/${input.woeid}`);
+        const data = await result.json();
+        //console.log(data.consolidated_weather[1]);
+        console.log(`Max temperature in ${input.title.replace(/\b\w/g, l => l.toUpperCase())} tomorrow will be ${data.consolidated_weather[1].max_temp}`);
+        return data;
+    } catch (e) {
+        alert('Error!!');
+    } finally {
+        console.log('The End');
+    }
+}
+
 document.querySelector(DOM_VARS.ID_BUTTON_CITY_SEARCH).addEventListener('click', () => {
     city = document.querySelector(DOM_VARS.ID_INPUT_CITY).value;
-    functionsCity(city);
+    functionCity(city);
 });
+
 document.addEventListener('keypress', event => {
     if (event.key === 'Enter'){
         city = document.querySelector(DOM_VARS.ID_INPUT_CITY).value;
-        functionsCity(city);
+        functionCity(city);
     }
-});
-
-
-//fetch('https://www.metaweather.com/api/location/');
+});*/

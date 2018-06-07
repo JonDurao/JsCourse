@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cae9314e-811e-4999-ba76-b6131bf539ed" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 8/1 - Async/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Section 8/1 - Async/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Section 8/1 - Async/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Section 8/1 - Async/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,14 +23,16 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Section 8/1 - Async/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="218" column="28" selection-start-line="218" selection-start-column="28" selection-end-line="218" selection-end-column="28" />
+            <state relative-caret-position="161">
+              <caret line="292" column="5" selection-start-line="292" selection-start-column="5" selection-end-line="292" selection-end-column="5" />
               <folding>
                 <element signature="e#352#741#0" />
                 <element signature="e#742#1443#0" />
                 <element signature="e#1444#3227#0" />
                 <element signature="e#3228#4456#0" />
                 <element signature="e#4457#4875#0" />
+                <element signature="e#4876#6941#0" />
+                <element signature="e#6941#8678#0" />
               </folding>
             </state>
           </provider>
@@ -292,7 +293,8 @@
       <workItem from="1528097265904" duration="14560000" />
       <workItem from="1528191241892" duration="7836000" />
       <workItem from="1528269424663" duration="12184000" />
-      <workItem from="1528297994270" duration="1186000" />
+      <workItem from="1528297994270" duration="1345000" />
+      <workItem from="1528354461084" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 18 Added">
       <created>1519995180286</created>
@@ -420,11 +422,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528195591226</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update">
+      <created>1528299717078</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1528299717078</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update">
+      <created>1528299861456</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1528299861456</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153869000" />
+    <option name="totallyTimeSpent" value="156262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -842,14 +858,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Section 8/1 - Async/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="218" column="28" selection-start-line="218" selection-start-column="28" selection-end-line="218" selection-end-column="28" />
+        <state relative-caret-position="161">
+          <caret line="292" column="5" selection-start-line="292" selection-start-column="5" selection-end-line="292" selection-end-column="5" />
           <folding>
             <element signature="e#352#741#0" />
             <element signature="e#742#1443#0" />
             <element signature="e#1444#3227#0" />
             <element signature="e#3228#4456#0" />
             <element signature="e#4457#4875#0" />
+            <element signature="e#4876#6941#0" />
+            <element signature="e#6941#8678#0" />
           </folding>
         </state>
       </provider>
