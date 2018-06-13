@@ -59,3 +59,6 @@ In the different sections you'll find
    - Timeout example
    - Async using callbacks
    - Async using promises
+   - Async/Await ES8
+   - AJAX calls with Fetch and Promises
+   - AJAX calls with Fetch and Async/Await   
